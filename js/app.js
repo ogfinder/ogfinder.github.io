@@ -100,7 +100,7 @@ function compare(e1, e2) {
 }
 
 function loadEntries(amount) {
-  if(loadedTo >= currentList.length) return;
+  if(currentList == null || loadedTo >= currentList.length) return;
   
   var container = document.getElementsByClassName("list_container")[0];
   var template = document.getElementsByClassName("entry_card")[0];
