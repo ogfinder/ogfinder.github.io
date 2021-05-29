@@ -7,21 +7,16 @@ function parseUrl() {
   input.value = searchParam;
 }
 
-loadBots();
+var list;
+var loadedTo = 0;
 
-function loadBots() {
-  var data = loadText("https://raw.githubusercontent.com/loldiscordbots/loldiscordbots.github.io/main/bots.txt").then(function(data){
-    var lines = data.split('\n');
+loadList();
+
+function loadList() {
+  var data = loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
+    list = data.split('\n');
 	
-	var container = document.getElementsByClassName("champion_container")[0];
-	var template = document.getElementsByClassName("champion_card")[0];
-	
-	for(var i=0; i<lines.length; i++) {
-	  var line = lines[i];
-	  var attributes = line.split('|');
-	  
-	  if(attributes.length > 1) loadBot(attributes, container, template);
-	}
+	loadEntries(500);
 	
 	addClickEvents();
 	
@@ -32,21 +27,52 @@ function loadBots() {
   });
 }
 
-function loadBot(attributes, container, template) {
-  var name = attributes[0];
-  var icon = "url(\"imgs/icons/champions/"+name.toLowerCase().replaceAll(" ", "_")+".png\")";
-  var id = attributes[1];
-  var description = attributes[2];
+function loadEntries(amount) {
+  if(loadedTo + amount > list.length) return;
+  
+  var container = document.getElementsByClassName("list_container")[0];
+  var template = document.getElementsByClassName("entry_card")[0];
+  
+  for(var i = loadedTo; i < loadedTo + amount; i++) {
+	if(i >= list.length) break;
+	
+    var line = list[i];
+	
+	if(line.length != 0) addEntry(line, container, template);
+  }
+  
+  loadedTo += amount;
+}
+
+window.onscroll = function(ev) {
+  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+    loadEntries(500);
+  }
+};
+
+function addEntry(s, container, template) {
+  var name = s.split(" ")[0];
+  var status = 0;
+  var og = s.includes("(og)");
   
   var card = template.cloneNode(true);
+  
   card.style = "";
   
-  card.querySelector('div[class="champion_card_text"]').innerText = name;
-  card.querySelector('div[class="champion_card_icon"]').style.backgroundImage = icon;
-  card.querySelector('div[class="champion_card_description"]').innerText = description;
-  card.querySelector('div[class="champion_card_id"]').innerText = id;
+  card.querySelector('div[class="entry_card_text"]').innerText = name;
+  
+  var tags = card.querySelectorAll('div[class="entry_card_tag"]');
+  
+  if(status == 0) toggleTagVisibility(tags.item(0));
+  else if(status == 1) toggleTagVisibility(tags.item(1));
+  else if(status == 2) toggleTagVisibility(tags.item(2));
+  if(og) toggleTagVisibility(tags.item(3));
   
   container.appendChild(card); 
+}
+
+function toggleTagVisibility(tag) {
+  tag.style.removeProperty("display");
 }
 
 function addClickEvents() {

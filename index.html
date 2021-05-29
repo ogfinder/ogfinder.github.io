@@ -48,16 +48,40 @@
 	  <input class="header_searchbox" type="text" placeholder="Search..." onkeyup="search(this)"></input>
 	</div>
     
-    <div class="champion_container">
+    <div class="list_container">
 	  
-	  <div class="champion_card" style="display: none">
-	    <div class="champion_card_icon"></div>
-	    <div class="champion_card_text"></div>
-		<div class="champion_card_description" style="display: none"></div>
-	    <div class="champion_card_id" style="display: none"></div>
-	  </div>
-	  
-	</div>
+      <div class="entry_card" style="display: none">
+        <div class="entry_card_text"></div>
+		
+        <div class="entry_card_tag" style="background-color: #3BA55C; display: none">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <polygon points="428.772,55.96 196.737,288.922 83.228,174.957 0.013,258.516 196.69,456.039 511.987,139.488 "/>
+          </svg>
+        </div>
+        <div class="entry_card_tag" style="background-color: #3BA5FF; display: none">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="25 25 50 50" enable-background="new 0 0 100 100" xml:space="preserve">
+            <path d="M49.999,40.019c-5.503,0-9.98,4.478-9.98,9.981s4.478,9.981,9.98,9.981c5.504,0,9.982-4.478,9.982-9.981  S55.503,40.019,49.999,40.019z"/>
+          </svg>
+        </div>
+        <div class="entry_card_tag" style="background-color: #FAA61A; display: none">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <rect x="0.013" y="197.127" width="511.975" height="117.746"/>
+          </svg>
+        </div>
+        <div class="entry_card_tag" style="background-color: #5865F2; display: none">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 826 826" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+            <defs>
+              <style type="text/css">
+                .fil0 {fill:black;fill-rule:nonzero}
+              </style>
+            </defs>
+            <g>
+              <path class="fil0" d="M413 0c228,0 413,185 413,413 0,228 -185,413 -413,413 -228,0 -413,-185 -413,-413 0,-228 185,-413 413,-413zm0 169c-135,0 -244,109 -244,244 0,134 109,243 244,243 134,0 243,-109 243,-243 0,-135 -109,-244 -243,-244z"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
   </body>
   
   <script src="js/app.js"></script>
