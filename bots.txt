@@ -1,0 +1,153 @@
+Aatrox|797507257268043807|Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.
+Ahri|797518844415180860|Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.
+Akali|797828664447205387|Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.
+Alistar|0|Desc.
+Amumu|0|Desc.
+Anivia|0|Desc.
+Annie|0|Desc.
+Aphelios|0|Desc.
+Ashe|0|Desc.
+Aurelion Sol|0|Desc.
+Azir|0|Desc.
+Bard|797520697622003793|A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic vagabond is drawn to artifacts of great magical power. Surrounded by a jubilant choir of helpful spirit meeps, it is impossible to mistake his actions as malevolent, as Bard always serves the greater good... in his own odd way.
+Blitzcrank|797525671173292072|Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers.
+Brand|0|Desc.
+Braum|797527325864493077|Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need.
+Caitlyn|0|Desc.
+Camille|0|Desc.
+Cassiopeia|0|Desc.
+Cho'Gath|0|Desc.
+Corki|0|Desc.
+Darius|0|Desc.
+Diana|0|Desc.
+Dr. Mundo|0|Desc.
+Draven|0|Desc.
+Ekko|0|Desc.
+Elise|0|Desc.
+Evelynn|0|Desc.
+Ezreal|0|Desc.
+Fiddlesticks|0|Desc.
+Fiora|0|Desc.
+Fizz|0|Desc.
+Galio|0|Desc.
+Gangplank|0|Desc.
+Garen|0|Desc.
+Gnar|0|Desc.
+Gragas|0|Desc.
+Graves|0|Desc.
+Hecarim|0|Desc.
+Heimerdinger|0|Desc.
+Illaoi|0|Desc.
+Irelia|0|Desc.
+Ivern|0|Desc.
+Janna|0|Desc.
+Jarvan IV|0|Desc.
+Jax|0|Desc.
+Jayce|0|Desc.
+Jhin|797596845249003561|Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's assassin. Using his gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.
+Jinx|0|Desc.
+Kai'Sa|0|Desc.
+Kalista|0|Desc.
+Karma|0|Desc.
+Karthus|0|Desc.
+Kassadin|0|Desc.
+Katarina|0|Desc.
+Kayle|0|Desc.
+Kayn|0|Desc.
+Kennen|0|Desc.
+Kha'Zix|0|Desc.
+Kindred|0|Desc.
+Kled|0|Desc.
+Kog'Maw|0|Desc.
+LeBlanc|0|Desc.
+Lee Sin|0|Desc.
+Leona|0|Desc.
+Lillia|0|Desc.
+Lissandra|0|Desc.
+Lucian|0|Desc.
+Lulu|0|Desc.
+Lux|0|Desc.
+Malphite|0|Desc.
+Malzahar|0|Desc.
+Maokai|0|Desc.
+Master Yi|0|Desc.
+Miss Fortune|0|Desc.
+Mordekaiser|0|Desc.
+Morgana|0|Desc.
+Nami|0|Desc.
+Nasus|0|Desc.
+Nautilus|0|Desc.
+Neeko|0|Desc.
+Nidalee|0|Desc.
+Nocturne|0|Desc.
+Nunu & Willump|0|Desc.
+Olaf|0|Desc.
+Orianna|0|Desc.
+Ornn|0|Desc.
+Pantheon|0|Desc.
+Poppy|0|Desc.
+Pyke|0|Desc.
+Qiyana|0|Desc.
+Quinn|0|Desc.
+Rakan|0|Desc.
+Rammus|0|Desc.
+Rek'Sai|0|Desc.
+Rell|0|Desc.
+Renekton|0|Desc.
+Rengar|0|Desc.
+Riven|0|Desc.
+Rumble|0|Desc.
+Ryze|0|Desc.
+Samira|0|Desc.
+Sejuani|0|Desc.
+Senna|0|Desc.
+Seraphine|0|Desc.
+Sett|0|Desc.
+Shaco|0|Desc.
+Shen|0|Desc.
+Shyvana|0|Desc.
+Singed|0|Desc.
+Sion|0|Desc.
+Sivir|0|Desc.
+Skarner|0|Desc.
+Sona|0|Desc.
+Soraka|0|Desc.
+Swain|0|Desc.
+Sylas|0|Desc.
+Syndra|0|Desc.
+Tahm Kench|0|Desc.
+Taliyah|0|Desc.
+Talon|0|Desc.
+Taric|0|Desc.
+Teemo|0|Desc.
+Thresh|0|Desc.
+Tristana|0|Desc.
+Trundle|0|Desc.
+Tryndamere|0|Desc.
+Twisted Fate|0|Desc.
+Twitch|0|Desc.
+Udyr|0|Desc.
+Urgot|0|Desc.
+Varus|0|Desc.
+Vayne|0|Desc.
+Veigar|0|Desc.
+Vel'Koz|0|Desc.
+Vi|0|Desc.
+Viktor|0|Desc.
+Vladimir|0|Desc.
+Volibear|0|Desc.
+Warwick|0|Desc.
+Wukong|0|Desc.
+Xayah|0|Desc.
+Xerath|0|Desc.
+Xin Zhao|0|Desc.
+Yasuo|0|Desc.
+Yone|0|Desc.
+Yorick|0|Desc.
+Yuumi|0|Desc.
+Zac|0|Desc.
+Zed|0|Desc.
+Ziggs|0|Desc.
+Zilean|0|Desc.
+Zoe|0|Desc.
+Zyra|0|Desc.
