@@ -34,7 +34,7 @@ function loadList() {
 	  list.push({
 		name: split[0],
 		og: false,
-		status: 0
+		status: split[1] === "null" ? 0 : 2
       });
 	}
 	
