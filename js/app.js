@@ -8,37 +8,67 @@ function parseUrl() {
 }
 
 var list;
+
+var query;
+
+var currentList;
 var loadedTo = 0;
 
 loadList();
 
 function loadList() {
   var data = loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
-    list = data.split('\n');
+    lines = data.split('\n');
 	
-	loadEntries(500);
+	list = [];
 	
-	addClickEvents();
-	
-	var searchParam = new URL(location).searchParams.get('search');
+	for(var line of lines) {
+	  var split = line.split(" ");
+	  
+	  list.push({
+		name: split[0],
+		og: split.length > 1 && split[1] === "(og)",
+		status: 1
+      });
+	}
 	
 	var input = document.getElementsByClassName("header_searchbox")[0];
 	search(input);
   });
 }
 
+function updateCurrentList() {
+  clearEntryList();
+  
+  currentList = [];
+  
+  for(var e of list) {
+	if(matches(e)) currentList.push(e);
+  }
+  
+  loadedTo = 0;
+  
+  loadEntries(200);
+}
+
+function matches(e) {
+  if(query != null && !e.name.includes(query)) return false;
+  
+  return true;
+}
+
 function loadEntries(amount) {
-  if(loadedTo + amount > list.length) return;
+  if(loadedTo >= currentList.length) return;
   
   var container = document.getElementsByClassName("list_container")[0];
   var template = document.getElementsByClassName("entry_card")[0];
   
   for(var i = loadedTo; i < loadedTo + amount; i++) {
-	if(i >= list.length) break;
+	if(i >= currentList.length) break;
 	
-    var line = list[i];
+    var e = currentList[i];
 	
-	if(line.length != 0) addEntry(line, container, template);
+	addEntry(e, container, template);
   }
   
   loadedTo += amount;
@@ -46,27 +76,23 @@ function loadEntries(amount) {
 
 window.onscroll = function(ev) {
   if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-    loadEntries(500);
+    loadEntries(200);
   }
 };
 
-function addEntry(s, container, template) {
-  var name = s.split(" ")[0];
-  var status = 0;
-  var og = s.includes("(og)");
-  
+function addEntry(e, container, template) {
   var card = template.cloneNode(true);
   
   card.style = "";
   
-  card.querySelector('div[class="entry_card_text"]').innerText = name;
+  card.querySelector('div[class="entry_card_text"]').innerText = e.name;
   
   var tags = card.querySelectorAll('div[class="entry_card_tag"]');
   
-  if(status == 0) toggleTagVisibility(tags.item(0));
-  else if(status == 1) toggleTagVisibility(tags.item(1));
-  else if(status == 2) toggleTagVisibility(tags.item(2));
-  if(og) toggleTagVisibility(tags.item(3));
+  if(e.status == 0) toggleTagVisibility(tags.item(0));
+  else if(e.status == 1) toggleTagVisibility(tags.item(1));
+  else if(e.status == 2) toggleTagVisibility(tags.item(2));
+  if(e.og) toggleTagVisibility(tags.item(3));
   
   container.appendChild(card); 
 }
@@ -119,29 +145,24 @@ function closeProfile(container) {
 }
 
 function search(e) {
-  var query = e.value;
+  query = e.value.toLowerCase();
   
   const url = new URL(location);
+  
   if(query.length != 0) url.searchParams.set('search', query);
   else url.searchParams.delete('search');
+  
   history.replaceState(null, null, url);
   
-  query = query.toLowerCase();
-  
-  var cards = document.getElementsByClassName("champion_card");
-  for(var i = 0; i < cards.length; i++) {
-	var card = cards.item(i);
-	
-	toggleVisibility(card, query);
-  }
+  updateCurrentList();
 }
 
-function toggleVisibility(card, query) {
-  var name = card.querySelector('div[class="champion_card_text"]').innerText.toLowerCase();
-  if(name.length == 0) return;
+function clearEntryList() {
+  var container = document.getElementsByClassName("list_container")[0];
   
-  if(query.length == 0 || name.includes(query)) card.style = "";
-  else card.style = "display: none;";
+  while(container.childElementCount > 1) {
+	container.removeChild(container.lastChild);
+  }
 }
 
 function loadText(url) {
