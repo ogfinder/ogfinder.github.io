@@ -28,7 +28,7 @@ function loadList() {
 	  list.push({
 		name: split[0],
 		og: false,
-		status: 1
+		status: 0
       });
 	}
 	
