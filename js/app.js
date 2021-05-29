@@ -180,7 +180,7 @@ function addClickEvents() {
 }
 
 function search(e) {
-  query = e.value.toLowerCase();
+  query = e.value;
   
   const url = new URL(location);
   
@@ -188,6 +188,8 @@ function search(e) {
   else url.searchParams.delete('search');
   
   history.replaceState(null, null, url);
+  
+  query = query.toLowerCase();
   
   updateCurrentList();
 }
