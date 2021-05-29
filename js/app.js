@@ -90,6 +90,19 @@ function matches(e) {
 }
 
 function compare(e1, e2) {
+  if(query != null) {
+	var i = e1.name.indexOf(query) - e2.name.indexOf(query);
+	
+	if(i != 0) return i;
+	
+	var diff1 = e1.name.length - query.length;
+	var diff2 = e2.name.length - query.length;
+	
+	i = diff1 - diff2;
+	
+	if(i != 0) return i;
+  }
+  
   var i = e1.status - e2.status;
   
   if(i != 0) return i;
