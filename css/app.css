@@ -135,8 +135,14 @@ body {
 	align-items: center;
 }
 
-.header_title {
+.header_logo {
 	margin-left: 160px;
+	width: 40px;
+	height: 40px;
+}
+
+.header_title {
+	margin-left: 20px;
 	padding-top: 5px;
 	max-width: 320px;
 	font-family: FFMark;
@@ -180,6 +186,7 @@ body {
 	
 	color: #dcddde;
 	background-color: #171F28;
+	fill: #171F28;
 	border-radius: 6px;
 	
 	display: flex;
@@ -194,6 +201,7 @@ body {
 }
 .entry_card:hover {
 	background-color: #222A33;
+	fill: #222A33;
 	color: #fff;
 	transform: translate(0, -8px);
 	box-shadow: 0 8px 22px rgba(0,0,0,0.45);
