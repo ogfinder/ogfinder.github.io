@@ -62,7 +62,13 @@ function matches(e) {
 }
 
 function compare(e1, e2) {
-  return e1.status - e2.status;
+  var i = e1.status - e2.status;
+  
+  if(i != 0) return i;
+  
+  if(e1.name < e2.name) return -1;
+  if(e1.name > e2.name) return 1;
+  return 0;
 }
 
 function loadEntries(amount) {
