@@ -7,6 +7,12 @@ function parseUrl() {
   input.value = searchParam;
 }
 
+function removePreloading() {
+  var e = document.getElementById("preloading");
+  
+  e.style.display = "none";
+}
+
 var list;
 
 var query;
@@ -36,6 +42,8 @@ function loadList() {
 	
 	var input = document.getElementsByClassName("header_searchbox")[0];
 	search(input);
+	
+	removePreloading();
   });
 }
 
@@ -84,9 +92,7 @@ function updateCurrentList() {
 }
 
 function matches(e) {
-  if(query != null && !e.name.includes(query)) return false;
-  
-  return true;
+  return query == null || e.name.includes(query);
 }
 
 function compare(e1, e2) {

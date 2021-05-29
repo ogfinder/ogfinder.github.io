@@ -12,6 +12,14 @@ body {
 	background-color: #000913;
 }
 
+#preloading {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	
+	background-color: #000913;
+}
+
 .background {
 	position: absolute;
 	width: 100%;
