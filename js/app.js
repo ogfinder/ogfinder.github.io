@@ -180,9 +180,7 @@ function search(e) {
 function clearEntryList() {
   var container = document.getElementsByClassName("list_container")[0];
   
-  while(container.childElementCount > 1) {
-	container.removeChild(container.lastChild);
-  }
+  container.innerHTML = "";
 }
 
 function loadText(url) {
