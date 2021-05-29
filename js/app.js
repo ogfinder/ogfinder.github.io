@@ -96,7 +96,7 @@ function matches(e) {
 }
 
 function compare(e1, e2) {
-  if(query != null) {
+  if(query != null && query.length != 0) {
 	var i = e1.name.indexOf(query) - e2.name.indexOf(query);
 	
 	if(i != 0) return i;
@@ -160,29 +160,6 @@ function addEntry(e, container, template) {
 
 function toggleTagVisibility(tag) {
   tag.style.removeProperty("display");
-}
-
-function addClickEvents() {
-  var container = document.getElementById("profile_container");
-  container.onclick = function(e) {
-	if (e.target !== this) return;
-	
-	closeProfile(container);
-  };
-  
-  var cards = document.getElementsByClassName("champion_card");
-  for(var i = 0; i < cards.length; i++) {
-	var card = cards.item(i);
-	
-    card.onclick = function(e) {
-	  var child = e.target;
-	  while(!child.classList.contains('champion_card')) {
-		child = child.parentElement;
-	  }
-	  
-	  openProfile(child);
-	};
-  }
 }
 
 function search(e) {
