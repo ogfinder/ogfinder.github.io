@@ -28,7 +28,7 @@ function loadList() {
 	  list.push({
 		name: split[0],
 		og: false,
-		status: 1
+		status: 2
       });
 	}
 	
@@ -46,6 +46,10 @@ function updateCurrentList() {
 	if(matches(e)) currentList.push(e);
   }
   
+  currentList.sort(function(e1, e2) { 
+    return compare(e1, e2);
+  });
+  
   loadedTo = 0;
   
   loadEntries(200);
@@ -55,6 +59,10 @@ function matches(e) {
   if(query != null && !e.name.includes(query)) return false;
   
   return true;
+}
+
+function compare(e1, e2) {
+  return e1.status - e2.status;
 }
 
 function loadEntries(amount) {
