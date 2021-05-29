@@ -136,6 +136,7 @@ body {
 }
 
 .header_logo {
+	padding-top: 3px;
 	margin-left: 160px;
 	width: 40px;
 	height: 40px;
