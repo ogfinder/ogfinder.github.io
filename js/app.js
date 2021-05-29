@@ -138,26 +138,6 @@ function addClickEvents() {
   }
 }
 
-function openProfile(card) {
-  var name = card.querySelector('div[class="champion_card_text"]').innerText;
-  var icon = card.querySelector('div[class="champion_card_icon"]').style.backgroundImage;
-  var description = card.querySelector('div[class="champion_card_description"]').innerText;
-  var id = card.querySelector('div[class="champion_card_id"]').innerText;
-  
-  var container = document.getElementById("profile_container");
-  
-  container.querySelector('span[class="profile_name"]').innerText = name;
-  container.querySelector('div[class="profile_icon"]').style.backgroundImage = icon;
-  container.querySelector('div[class="profile_content"]').innerText = description;
-  container.querySelector('a[class="invite_button"]').href = "https://discord.com/oauth2/authorize?client_id="+id+"&scope=bot";
-  
-  container.style.display = "flex";
-}
-
-function closeProfile(container) {
-  container.style.display = "none";
-}
-
 function search(e) {
   query = e.value.toLowerCase();
   
