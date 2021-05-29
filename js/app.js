@@ -27,7 +27,7 @@ function loadList() {
 	  
 	  list.push({
 		name: split[0],
-		og: split.length > 1 && split[1] === "(og)",
+		og: false,
 		status: 1
       });
 	}
