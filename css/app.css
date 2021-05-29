@@ -170,12 +170,52 @@ body {
 	font-weight: 400;
 }
 
-.list_container {
+.content_container {
 	margin: auto;
 	margin-bottom: 120px;
-	margin-top: 120px;
 	max-width: 1000px;
 	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.stats_container {
+	margin-top: 160px;
+	margin-bottom: 160px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stat_container {
+	margin-left: 42px;
+	margin-right: 42px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.stat_number {
+	font-size: 52px;
+	font-family: FFMark;
+	
+	color: #fff;
+}
+
+.stat_text {
+	font-size: 28px;
+	font-weight: 800;
+	font-family: 'Catamaran', sans-serif;
+	
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.list_container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

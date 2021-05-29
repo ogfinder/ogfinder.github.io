@@ -28,13 +28,41 @@ function loadList() {
 	  list.push({
 		name: split[0],
 		og: false,
-		status: 2
+		status: 1
       });
 	}
+	
+	updateStats();
 	
 	var input = document.getElementsByClassName("header_searchbox")[0];
 	search(input);
   });
+}
+
+function updateStats() {
+  var displays = document.getElementsByClassName("stat_number");
+  
+  var availableCount = list.filter((e) => e.status == 0).length;
+  var availableSoonCount = list.filter((e) => e.status == 1).length;
+  
+  displays[0].innerText = formatNumber(availableCount);
+  displays[1].innerText = formatNumber(availableSoonCount);
+}
+
+function formatNumber(x) {
+	x = roundifyNumber(x);
+	
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function roundifyNumber(x) {
+  if(x < 1000) return x;
+  
+  var n = 3;
+  var l = Math.ceil(Math.log10(x + 1));
+  var d = Math.pow(10, l - n);
+  
+  return Math.round(x / d) * d;
 }
 
 function updateCurrentList() {
