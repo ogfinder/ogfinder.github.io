@@ -7,10 +7,14 @@ function parseUrl() {
   input.value = searchParam;
 }
 
+window.addEventListener('resize', function(event) {
+  setTitleWidths();
+}, true);
+
 function removePreloading() {
   var e = document.getElementById("preloading");
   
-  e.style.display = "none";
+  setVisibility(e, false);
 }
 
 var list;
@@ -38,7 +42,7 @@ function loadList() {
 	    list.push({
 		  name: split[0],
 		  og: false,
-		  status: blockedNames.includes(split[0]) ? 4 : split[1] === "null" ? 0 : 2
+		  status: blockedNames.includes(split[0]) ? 3 : split[1] === "null" ? 0 : 2
         });
 	  }
 	  
@@ -101,7 +105,54 @@ function updateCurrentList() {
 function showNothingFound(b) {
   var e = document.getElementsByClassName("nothing_found_text")[0];
   
-  if(b) e.style.display = "inline";
+  setVisibility(e, b);
+}
+
+function hideTitles() {
+  var list = document.getElementsByClassName("list_title");
+  
+  for(var e of list) {
+	setVisibility(e, false);
+  }
+}
+
+function showTitle(i, container) {
+  var e = document.getElementsByClassName("list_title")[i];
+  
+  setVisibility(e, true);
+}
+
+function setTitleWidths() {
+  var cardWidth = 200 + 8 * 2;
+  
+  var containers = document.getElementsByClassName("list_container");
+  
+  var maxWidth = 0;
+  var maxCount = 0;
+  
+  for(var container of containers) {
+	maxWidth = Math.max(container.offsetWidth, maxWidth);
+	maxCount = Math.max(container.childElementCount, maxCount);
+  }
+  
+  var lineWidth = cardWidth * maxCount;
+  
+  if(lineWidth > maxWidth * 3) {
+	lineWidth = Math.floor(maxWidth / cardWidth) * cardWidth - 8 * 2;
+  } else {
+    lineWidth = 0;
+  }
+  
+  var titles = document.getElementsByClassName("list_title");
+  
+  for(var e of titles) {
+	if(lineWidth == 0) e.style.removeProperty("width");
+	else e.style.width = lineWidth + "px";
+  }
+}
+
+function setVisibility(e, b) {
+  if(b) e.style.removeProperty("display");
   else e.style.display = "none";
 }
 
@@ -135,7 +186,6 @@ function compare(e1, e2) {
 function loadEntries(amount) {
   if(currentList == null || loadedTo >= currentList.length) return;
   
-  var container = document.getElementsByClassName("list_container")[0];
   var template = document.getElementsByClassName("entry_card")[0];
   
   for(var i = loadedTo; i < loadedTo + amount; i++) {
@@ -143,10 +193,12 @@ function loadEntries(amount) {
 	
     var e = currentList[i];
 	
-	addEntry(e, container, template);
+	addEntry(e, template);
   }
   
   loadedTo += amount;
+  
+  setTitleWidths();
 }
 
 window.onscroll = function(ev) {
@@ -155,7 +207,13 @@ window.onscroll = function(ev) {
   }
 };
 
-function addEntry(e, container, template) {
+function addEntry(e, template) {
+  var index = e.status;
+  
+  var container = document.getElementsByClassName("list_container")[index];
+  
+  setVisibility(container, true);
+  
   var card = template.cloneNode(true);
   
   card.style = "";
@@ -167,11 +225,13 @@ function addEntry(e, container, template) {
   toggleTagVisibility(tags.item(e.status));
   if(e.og) toggleTagVisibility(tags.item(3));
   
-  container.appendChild(card); 
+  container.appendChild(card);
+  
+  showTitle(index, container);
 }
 
 function toggleTagVisibility(tag) {
-  tag.style.removeProperty("display");
+  setVisibility(tag, true);
 }
 
 function search(e) {
@@ -190,9 +250,15 @@ function search(e) {
 }
 
 function clearEntryList() {
-  var container = document.getElementsByClassName("list_container")[0];
+  var containers = document.getElementsByClassName("list_container");
   
-  container.innerHTML = "";
+  for(var container of containers) {
+	container.innerHTML = "";
+	
+	setVisibility(container, false);
+  }
+  
+  hideTitles();
 }
 
 function loadText(url) {

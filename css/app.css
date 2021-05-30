@@ -124,7 +124,7 @@ body {
 .stats_container {
 	max-width: 100%;
 	margin-top: 160px;
-	margin-bottom: 160px;
+	margin-bottom: 133px;
 	
 	display: flex;
 	align-items: center;
@@ -133,8 +133,8 @@ body {
 }
 
 .stat_container {
-	margin-left: 42px;
-	margin-right: 42px;
+	margin-left: 46px;
+	margin-right: 46px;
 	margin-bottom: 46px;
 	
 	display: flex;
@@ -166,7 +166,20 @@ body {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.list_title {
+	text-align: left;
+	margin-bottom: 20px;
+	
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	
+	color: rgba(255, 255, 255, 0.5);
+}
+
 .list_container {
+	margin-bottom: 40px;
+	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
