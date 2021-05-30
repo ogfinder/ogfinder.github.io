@@ -159,9 +159,7 @@ function addEntry(e, container, template) {
   
   var tags = card.querySelectorAll('div[class="entry_card_tag"]');
   
-  if(e.status == 0) toggleTagVisibility(tags.item(0));
-  else if(e.status == 1) toggleTagVisibility(tags.item(1));
-  else if(e.status == 2) toggleTagVisibility(tags.item(2));
+  toggleTagVisibility(tags.item(e.status));
   if(e.og) toggleTagVisibility(tags.item(3));
   
   container.appendChild(card); 
