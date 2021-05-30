@@ -88,7 +88,16 @@ function updateCurrentList() {
   
   loadedTo = 0;
   
+  showNothingFound(currentList.length == 0);
+  
   loadEntries(200);
+}
+
+function showNothingFound(b) {
+  var e = document.getElementsByClassName("nothing_found_text")[0];
+  
+  if(b) e.style.display = "inline";
+  else e.style.display = "none";
 }
 
 function matches(e) {
