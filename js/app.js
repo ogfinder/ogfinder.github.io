@@ -23,27 +23,32 @@ var loadedTo = 0;
 loadList();
 
 function loadList() {
-  var data = loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
-    lines = data.split('\n');
-	
-	list = [];
-	
-	for(var line of lines) {
-	  var split = line.split(" ");
+  loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
+    loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/blocked_names.txt").then(function(data2){
 	  
-	  list.push({
-		name: split[0],
-		og: false,
-		status: split[1] === "null" ? 0 : 2
-      });
-	}
-	
-	updateStats();
-	
-	var input = document.getElementsByClassName("header_searchbox")[0];
-	search(input);
-	
-	removePreloading();
+      blockedNames = data2.split('\n');
+	  
+      lines = data.split('\n');
+	  
+	  list = [];
+	  
+	  for(var line of lines) {
+	    var split = line.split(" ");
+	    
+	    list.push({
+		  name: split[0],
+		  og: false,
+		  status: blockedNames.includes(split[0]) ? 4 : split[1] === "null" ? 0 : 2
+        });
+	  }
+	  
+	  updateStats();
+	  
+	  var input = document.getElementsByClassName("header_searchbox")[0];
+	  search(input);
+	  
+	  removePreloading();
+    });
   });
 }
 
