@@ -194,6 +194,8 @@ body {
 }
 
 .entry_card {
+	position: relative;
+	
 	min-width: 200px;
 	min-height: 46px;
 	margin: 8px;
@@ -209,10 +211,12 @@ body {
 	
 	cursor: pointer;
 	transition: background-color .125s,box-shadow .125s,transform .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+	user-select: none;
 	
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 500;
 }
+
 .entry_card:hover {
 	background-color: #222A33;
 	fill: #222A33;
@@ -242,4 +246,45 @@ body {
 .entry_card_tag svg {
 	width: 10px;
 	height: 10px;
+}
+
+.copied_sign {
+	position: absolute;
+	top: -29px;
+	
+	z-index: 50;
+	pointer-events: none;
+	
+	transition: opacity 0.15s ease;
+}
+
+.copied_sign_text {
+	display: inline-block;
+	width: 71px;
+	height: 32px;
+	line-height: 32px;
+	
+	text-align: center;
+	
+	background-color: #3BA55C;
+	color: #fff;
+	border-radius: 5px;
+	
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.copied_sign_triangle {
+	position: absolute;
+	top: 31px;
+	left: 29.5px;
+	
+	display: inline-block;
+	width: 0; 
+	height: 0;
+	
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #3BA55C;
 }

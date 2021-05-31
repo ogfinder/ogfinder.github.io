@@ -99,7 +99,7 @@ function updateCurrentList() {
   
   showNothingFound(currentList.length == 0);
   
-  loadEntries(200);
+  loadEntries(175);
 }
 
 function showNothingFound(b) {
@@ -156,6 +156,10 @@ function setVisibility(e, b) {
   else e.style.display = "none";
 }
 
+function isVisible(e) {
+  return e.style.display != "none";
+}
+
 function matches(e) {
   return query == null || e.name.includes(query);
 }
@@ -203,7 +207,7 @@ function loadEntries(amount) {
 
 window.onscroll = function(ev) {
   if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-    loadEntries(200);
+    loadEntries(175);
   }
 };
 
@@ -225,6 +229,12 @@ function addEntry(e, template) {
   toggleTagVisibility(tags.item(e.status));
   if(e.og) toggleTagVisibility(tags.item(3));
   
+  card.addEventListener('click', event => {
+    copyToClipboard(e.name);
+	
+	showCopiedSign(card);
+  });
+  
   container.appendChild(card);
   
   showTitle(index, container);
@@ -232,6 +242,28 @@ function addEntry(e, template) {
 
 function toggleTagVisibility(tag) {
   setVisibility(tag, true);
+}
+
+function copyToClipboard(s) {
+  var tempInput = document.createElement("input");
+  tempInput.value = s;
+  
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  
+  document.execCommand("copy");
+  
+  document.body.removeChild(tempInput);
+}
+
+function showCopiedSign(card) {
+  var e = card.querySelector(".copied_sign");
+  
+  if(e.style.opacity != "0") return false;
+  
+  e.style.opacity = "1";
+  
+  setTimeout(() => e.style.opacity = "0", 1000);
 }
 
 function search(e) {
