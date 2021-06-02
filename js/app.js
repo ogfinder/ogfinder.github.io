@@ -42,7 +42,7 @@ function loadList() {
 	    list.push({
 		  name: split[0],
 		  og: false,
-		  status: blockedNames.includes(split[0]) ? 3 : split[1] === "null" ? 0 : 2
+		  status: blockedNames.includes(split[0]) ? 3 : split[1] === "null" ? (isAvailableNow(split[2]) ? 0 : 1) : 2
         });
 	  }
 	  
@@ -54,6 +54,10 @@ function loadList() {
 	  removePreloading();
     });
   });
+}
+
+function isAvailableNow(time) {
+  return Date.now() - time >= 3196800000;
 }
 
 function updateStats() {
