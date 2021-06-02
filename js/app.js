@@ -15,6 +15,8 @@ function removePreloading() {
   var e = document.getElementById("preloading");
   
   setVisibility(e, false);
+  
+  document.body.style.removeProperty("overflow");
 }
 
 var list;
@@ -71,9 +73,9 @@ function updateStats() {
 }
 
 function formatNumber(x) {
-	x = roundifyNumber(x);
-	
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  x = roundifyNumber(x);
+  
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function roundifyNumber(x) {
