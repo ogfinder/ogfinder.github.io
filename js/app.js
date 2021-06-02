@@ -282,7 +282,7 @@ function search(e) {
   
   history.replaceState(null, null, url);
   
-  query = query.toLowerCase();
+  query = query.toLowerCase().replace(" ", "");
   
   updateCurrentList();
 }
