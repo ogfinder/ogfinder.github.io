@@ -44,7 +44,7 @@ function loadList() {
 	    list.push({
 		  name: split[0],
 		  og: false,
-		  status: blockedNames.includes(split[0]) ? 3 : split[1] === "null" ? (isAvailableNow(parseInt(split[2])) ? 0 : 1) : 2
+		  status: blockedNames.includes(split[0]) ? 3 : split[2] === "null" ? (isAvailableNow(parseInt(split[3])) ? 0 : 1) : 2
         });
 	  }
 	  
