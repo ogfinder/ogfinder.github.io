@@ -43,6 +43,7 @@ function loadList() {
 	    
 	    list.push({
 		  name: split[0],
+		  popularity: parseFloat(split[1]),
 		  og: false,
 		  status: blockedNames.includes(split[0]) ? 3 : split[2] === "null" ? (isAvailableNow(parseInt(split[3])) ? 0 : 1) : 2
         });
@@ -188,9 +189,15 @@ function compare(e1, e2) {
 	if(i != 0) return i;
   }
   
-  if(e1.name < e2.name) return -1;
-  if(e1.name > e2.name) return 1;
-  return 0;
+  if(false) {
+	if(e1.popularity > e2.popularity) return -1;
+    if(e1.popularity < e2.popularity) return 1;
+    return 0;
+  } else {
+	if(e1.name < e2.name) return -1;
+    if(e1.name > e2.name) return 1;
+    return 0;
+  }
 }
 
 function loadEntries(amount) {
