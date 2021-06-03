@@ -49,6 +49,18 @@
 	  </a>
 	  
 	  <input class="header_searchbox" type="text" placeholder="Search..." onkeyup="search(this)"></input>
+	  
+	  <span class="header_sort_text">Sort by:</span>
+	  <div class="header_sortselect" onclick="onSortMenuClick(this)">
+        <span></span>
+        
+		<div class="header_sortselect_options" style="display: none">
+		  <span onclick="selectSortElement(this, 0, true)">A-Z</span>
+		  <span onclick="selectSortElement(this, 1, true)">Popularity</span>
+		</div>
+		
+		<div class="header_sortselect_arrow"></div>
+      </div>
 	</div>
     
 	<div class="content_container">

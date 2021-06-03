@@ -2,14 +2,25 @@ parseUrl();
 
 function parseUrl() {
   var searchParam = new URL(location).searchParams.get('search');
+  var sortParam = new URL(location).searchParams.get('sort_type');
   
-  var input = document.getElementsByClassName("header_searchbox")[0];
-  input.value = searchParam;
+  var searchInput = document.getElementsByClassName("header_searchbox")[0];
+  searchInput.value = searchParam;
+  
+  selectSortType(sortParam == null || sortParam === "undefined" || sortParam.length == 0 ? 0 : parseInt(sortParam));
 }
 
 window.addEventListener('resize', function(event) {
   setTitleWidths();
 }, true);
+
+window.addEventListener('click', function(click){
+  var e = document.getElementsByClassName("header_sortselect")[0];
+  
+  if(!e.contains(click.target)){
+    closeSortMenu(e);
+  }
+});
 
 function removePreloading() {
   var e = document.getElementById("preloading");
@@ -22,6 +33,7 @@ function removePreloading() {
 var list;
 
 var query;
+var sortType;
 
 var currentList;
 var loadedTo = 0;
@@ -32,9 +44,9 @@ function loadList() {
   loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
     loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/blocked_names.txt").then(function(data2){
 	  
-      blockedNames = data2.split('\n');
+      var blockedNames = data2.split('\n');
 	  
-      lines = data.split('\n');
+      var lines = data.split('\n');
 	  
 	  list = [];
 	  
@@ -51,8 +63,8 @@ function loadList() {
 	  
 	  updateStats();
 	  
-	  var input = document.getElementsByClassName("header_searchbox")[0];
-	  search(input);
+	  var searchInput = document.getElementsByClassName("header_searchbox")[0];
+	  search(searchInput);
 	  
 	  removePreloading();
     });
@@ -189,10 +201,8 @@ function compare(e1, e2) {
 	if(i != 0) return i;
   }
   
-  if(false) {
-	if(e1.popularity > e2.popularity) return -1;
-    if(e1.popularity < e2.popularity) return 1;
-    return 0;
+  if(sortType == 1) {
+    return e2.popularity - e1.popularity;
   } else {
 	if(e1.name < e2.name) return -1;
     if(e1.name > e2.name) return 1;
@@ -294,6 +304,19 @@ function search(e) {
   updateCurrentList();
 }
 
+function sort(type) {
+  sortType = type;
+  
+  const url = new URL(location);
+  
+  if(sortType != 0) url.searchParams.set('sort_type', sortType);
+  else url.searchParams.delete('sort_type');
+  
+  history.replaceState(null, null, url);
+  
+  updateCurrentList();
+}
+
 function clearEntryList() {
   var containers = document.getElementsByClassName("list_container");
   
@@ -304,6 +327,46 @@ function clearEntryList() {
   }
   
   hideTitles();
+}
+
+function onSortMenuClick(e) {
+  if(e.classList.contains("open")) {
+	closeSortMenu(e);
+  } else {
+	openSortMenu(e);
+  }
+}
+
+function openSortMenu(e) {
+  e.classList.add("open");
+  
+  var options = e.querySelector(".header_sortselect_options");
+  
+  setVisibility(options, true);
+}
+
+function closeSortMenu(e) {
+  e.classList.remove("open");
+  
+  var options = e.querySelector(".header_sortselect_options");
+  
+  setVisibility(options, false);
+}
+
+function selectSortType(type) {
+  var e = document.getElementsByClassName("header_sortselect")[0];
+  
+  var options = e.querySelector(".header_sortselect_options");
+  
+  selectSortElement(options.children[type], type, false);
+}
+
+function selectSortElement(e, type, update) {
+  var span = document.getElementsByClassName("header_sortselect")[0].children[0];
+  
+  span.innerText = e.innerText;
+  
+  if(update) sort(type);
 }
 
 function loadText(url) {
