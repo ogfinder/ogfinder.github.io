@@ -22,6 +22,27 @@ window.addEventListener('click', function(click) {
 	}
 });
 
+var debounce = function(func, wait) {
+	var timeout;
+	
+	return function() {
+		var context = this, args = arguments;
+		
+		var later = function() {
+			timeout = null;
+			
+			func.apply(context, args);
+		};
+		
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+	};
+};
+
+document.querySelector(".header_searchbox").addEventListener('keyup', debounce(function() {
+	search(this);
+}, 500));
+
 function removePreloading() {
 	var e = document.getElementById("preloading");
 
