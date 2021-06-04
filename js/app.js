@@ -321,7 +321,7 @@ function search(e) {
 
 	history.replaceState(null, null, url);
 
-	query = query.toLowerCase().replace(" ", "");
+	query = query.toLowerCase().replaceAll(" ", "");
 
 	updateCurrentList();
 }
