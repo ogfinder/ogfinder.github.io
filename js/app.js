@@ -396,11 +396,15 @@ function addEmoji(card, e) {
 }
 
 function setEmoji(card, emoji) {
-  var image = document.createElement("img");
-  
   var unicode = emojiUnicode(emoji);
   
-  image.src = "https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/emojis/" + unicode + ".svg";
+  var url = "https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/emojis/" + unicode + ".svg";
+  
+  if(!urlExists(url)) return;
+  
+  var image = document.createElement("img");
+  
+  image.src = url;
   image.alt = emoji;
   
   image.style.maxWidth = "19px";
@@ -420,22 +424,22 @@ function setEmoji(card, emoji) {
 function emojiUnicode(emoji) {
   var s = "";
   
-  console.log(emoji);
-  
-  console.log(emoji.length);
-  
   var n = Math.ceil(emoji.length / 2);
   
   for(var i = 0; i < n; i++) {
-	  
-	  console.log(emoji.codePointAt(i * 2));
-	  
 	s += emoji.codePointAt(i * 2).toString(16) + (i == n - 1 ? "" : "-");
   }
   
-  console.log(s);
-  
   return s;
+}
+
+function urlExists(url){
+  var http = new XMLHttpRequest();
+  
+  http.open('HEAD', url, false);
+  http.send();
+  
+  return http.status != 404;
 }
 
 function loadText(url) {
