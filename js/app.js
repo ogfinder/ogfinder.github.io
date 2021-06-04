@@ -420,7 +420,7 @@ function addEmoji(card, e) {
 	  
       var score = k + i * 3;
 	  
-	  if(i > 2 || score >= m) break;
+	  if(i > 2 || score > m) break;
 	  
 	  if(keyword == e.name) {
 		url = emoji.code;
