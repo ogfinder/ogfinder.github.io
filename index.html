@@ -1,134 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    
-    <link rel="icon" href="favicon.ico">
-    
-    <title>OG Finder</title>
-	
-    <meta property="og:title" content="OG Finder"/>
-    <meta property="og:url" content="https://ogfinder.github.io/"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/preview.png"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="OG Finder"/>
-    <meta property="og:keywords" content="OG Finder,OG Name,OG,Minecraft,Minecraft Names"/>
-    <meta property="og:description" content="Search 150 thousand unique OG names to find the one that best suits you."/>
-    <meta name="description" content="Search 150 thousand unique OG names to find the one that best suits you."/>
-    <meta name="theme-color" content="#000913">
-    
-    <link rel="stylesheet" href="css/app.css">
-	
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;800&display=swap" rel="stylesheet"> 
-  </head>
-  
-  <body style="overflow: hidden">
-    
-	<div id="preloading"></div>
-	
-	<div class="background_filter"></div>
-	<div class="background">
-	  <div class="background_image" style="background-image: url('imgs/background.jpg')"></div>
-	  <div class="background_overlay"></div>
-	</div>
-	
-    <div class="header">
-	  
-	  <a class="header_logo" onmousedown="return false" href="/">
-	    <div class="header_icon">
-	      <svg style="fill: #fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 826 826" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
-            <g>
-              <path d="M413 0c228,0 413,185 413,413 0,228 -185,413 -413,413 -228,0 -413,-185 -413,-413 0,-228 185,-413 413,-413zm0 169c-135,0 -244,109 -244,244 0,134 109,243 244,243 134,0 243,-109 243,-243 0,-135 -109,-244 -243,-244z"/>
-            </g>
-          </svg>
-	    </div>
-	    <div class="header_title">OG FINDER</div>
-	  </a>
-	  
-	  <input class="header_searchbox" type="text" placeholder="Search..." onkeyup="search(this)"></input>
-	  
-	  <span class="header_sort_text">Sort by:</span>
-	  <div class="header_sortselect" onclick="onSortMenuClick(this)">
-        <span></span>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         
-		<div class="header_sortselect_options" style="display: none">
-		  <span onclick="selectSortElement(this, 0, true)">A-Z</span>
-		  <span onclick="selectSortElement(this, 1, true)">Popularity</span>
-		</div>
-		
-		<div class="header_sortselect_arrow"></div>
-      </div>
-	</div>
+        <link rel="icon" href="favicon.ico">
+        
+        <title>OG Finder</title>
+        
+        <meta property="og:title" content="OG Finder"/>
+        <meta property="og:url" content="https://ogfinder.github.io/"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/preview.png"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="OG Finder"/>
+        <meta property="og:keywords" content="OG Finder,OG Name,OG,Minecraft,Minecraft Names"/>
+        <meta property="og:description" content="Search 150 thousand unique OG names to find the one that best suits you."/>
+        <meta name="description" content="Search 150 thousand unique OG names to find the one that best suits you."/>
+        <meta name="theme-color" content="#000913">
+        
+        <link rel="stylesheet" href="css/app.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;800&display=swap" rel="stylesheet"> 
+    </head>
     
-	<div class="content_container">
-	  
-	  <div class="stats_container">
-	    <div class="stat_container">
-		  <span class="stat_number"></span>
-		  <span class="stat_text">Available now</span>
-		</div>
-		
-	    <div class="stat_container">
-		  <span class="stat_number"></span>
-		  <span class="stat_text">Available soon</span>
-		</div>
-	  </div>
-	  
-	  <span class="nothing_found_text">No results found :(</span>
-	  
-      <div class="entry_card" style="display: none">
-        <div class="entry_card_text"></div>
-		
-        <div class="entry_card_tag" style="background-color: #3BA55C; display: none">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-            <polygon points="428.772,55.96 196.737,288.922 83.228,174.957 0.013,258.516 196.69,456.039 511.987,139.488 "/>
-          </svg>
+    <body style="overflow: hidden">
+        
+        <div id="preloading"></div>
+        
+        <div class="background_filter"></div>
+        <div class="background">
+            <div class="background_image" style="background-image: url('imgs/background.jpg')"></div>
+            <div class="background_overlay"></div>
         </div>
-        <div class="entry_card_tag" style="background-color: #3BA5FF; display: none">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="25 25 50 50" enable-background="new 0 0 100 100" xml:space="preserve">
-            <path d="M49.999,40.019c-5.503,0-9.98,4.478-9.98,9.981s4.478,9.981,9.98,9.981c5.504,0,9.982-4.478,9.982-9.981  S55.503,40.019,49.999,40.019z"/>
-          </svg>
+        
+        <div class="header">
+            
+            <a class="header_logo" onmousedown="return false" href="/">
+                <div class="header_icon">
+                    <svg style="fill: #fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 826 826" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+                        <g>
+                            <path d="M413 0c228,0 413,185 413,413 0,228 -185,413 -413,413 -228,0 -413,-185 -413,-413 0,-228 185,-413 413,-413zm0 169c-135,0 -244,109 -244,244 0,134 109,243 244,243 134,0 243,-109 243,-243 0,-135 -109,-244 -243,-244z"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="header_title">OG FINDER</div>
+            </a>
+            
+            <input class="header_searchbox" type="text" placeholder="Search..." onkeyup="search(this)"></input>
+            
+            <span class="header_sort_text">Sort by:</span>
+            <div class="header_sortselect" onclick="onSortMenuClick(this)">
+                <span></span>
+                
+                <div class="header_sortselect_options" style="display: none">
+                    <span onclick="selectSortElement(this, 0, true)">A-Z</span>
+                    <span onclick="selectSortElement(this, 1, true)">Popularity</span>
+                </div>
+                
+                <div class="header_sortselect_arrow"></div>
+            </div>
         </div>
-        <div class="entry_card_tag" style="background-color: #FAA61A; display: none">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-            <rect x="0.013" y="197.127" width="511.975" height="117.746"/>
-          </svg>
+        
+        <div class="content_container">
+            
+            <div class="stats_container">
+                <div class="stat_container">
+                    <span class="stat_number"></span>
+                    <span class="stat_text">Available now</span>
+                </div>
+                
+                <div class="stat_container">
+                    <span class="stat_number"></span>
+                    <span class="stat_text">Available soon</span>
+                </div>
+            </div>
+            
+            <span class="nothing_found_text">No results found :(</span>
+            
+            <div class="entry_card" style="display: none">
+                <div class="entry_card_text"></div>
+                
+                <div class="entry_card_tag" style="background-color: #3BA55C; display: none">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                        <polygon points="428.772,55.96 196.737,288.922 83.228,174.957 0.013,258.516 196.69,456.039 511.987,139.488 "/>
+                    </svg>
+                </div>
+                <div class="entry_card_tag" style="background-color: #3BA5FF; display: none">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="25 25 50 50" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <path d="M49.999,40.019c-5.503,0-9.98,4.478-9.98,9.981s4.478,9.981,9.98,9.981c5.504,0,9.982-4.478,9.982-9.981    S55.503,40.019,49.999,40.019z"/>
+                    </svg>
+                </div>
+                <div class="entry_card_tag" style="background-color: #FAA61A; display: none">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                        <rect x="0.013" y="197.127" width="511.975" height="117.746"/>
+                    </svg>
+                </div>
+                <div class="entry_card_tag" style="background-color: #ED4245; display: none">
+                    <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 100">
+                        <g transform="translate(0,-952.36218)">
+                            <path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;" d="m 17.069155,958.36232 a 2.0002,2.0002 0 0 0 -1.38518,0.58566 l -9.0982501,9.09825 a 2.0002,2.0002 0 0 0 0,2.82855 l 31.4938101,31.48152 -31.4938101,31.4938 a 2.0002,2.0002 0 0 0 0,2.8282 l 9.0982501,9.0982 a 2.0002,2.0002 0 0 0 2.82855,0 l 31.48154,-31.4938 31.4938,31.4938 a 2.0002,2.0002 0 0 0 2.82817,0 l 9.09824,-9.0982 a 2.0002,2.0002 0 0 0 0,-2.8282 l -31.49381,-31.4938 31.49381,-31.48152 a 2.0002,2.0002 0 0 0 0,-2.82855 l -9.09824,-9.09825 a 2.0002,2.0002 0 0 0 -2.82817,0 l -31.4938,31.4938 -31.48154,-31.4938 a 2.0002,2.0002 0 0 0 -1.44337,-0.58566 z" fill="#000000" fill-opacity="1" fill-rule="evenodd" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="entry_card_tag" style="background-color: #5865F2; display: none">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 826 826" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+                        <g>
+                            <path d="M413 0c228,0 413,185 413,413 0,228 -185,413 -413,413 -228,0 -413,-185 -413,-413 0,-228 185,-413 413,-413zm0 169c-135,0 -244,109 -244,244 0,134 109,243 244,243 134,0 243,-109 243,-243 0,-135 -109,-244 -243,-244z"/>
+                        </g>
+                    </svg>
+                </div>
+                
+                <div class="copied_sign" style="opacity: 0">
+                    <span class="copied_sign_text">Copied!</span>
+                    <div class="copied_sign_triangle"></div>
+                </div>
+            </div>
+            
+            <span class="list_title">Available</span>
+            <div class="list_container"></div>
+            <span class="list_title">Available soon</span>
+            <div class="list_container"></div>
+            <span class="list_title">Taken</span>
+            <div class="list_container"></div>
+            <span class="list_title">Blocked</span>
+            <div class="list_container"></div>
+            
         </div>
-        <div class="entry_card_tag" style="background-color: #ED4245; display: none">
-          <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 100">
-            <g transform="translate(0,-952.36218)">
-              <path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;" d="m 17.069155,958.36232 a 2.0002,2.0002 0 0 0 -1.38518,0.58566 l -9.0982501,9.09825 a 2.0002,2.0002 0 0 0 0,2.82855 l 31.4938101,31.48152 -31.4938101,31.4938 a 2.0002,2.0002 0 0 0 0,2.8282 l 9.0982501,9.0982 a 2.0002,2.0002 0 0 0 2.82855,0 l 31.48154,-31.4938 31.4938,31.4938 a 2.0002,2.0002 0 0 0 2.82817,0 l 9.09824,-9.0982 a 2.0002,2.0002 0 0 0 0,-2.8282 l -31.49381,-31.4938 31.49381,-31.48152 a 2.0002,2.0002 0 0 0 0,-2.82855 l -9.09824,-9.09825 a 2.0002,2.0002 0 0 0 -2.82817,0 l -31.4938,31.4938 -31.48154,-31.4938 a 2.0002,2.0002 0 0 0 -1.44337,-0.58566 z" fill="#000000" fill-opacity="1" fill-rule="evenodd" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/>
-            </g>
-          </svg>
-		</div>
-        <div class="entry_card_tag" style="background-color: #5865F2; display: none">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 826 826" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
-            <g>
-              <path d="M413 0c228,0 413,185 413,413 0,228 -185,413 -413,413 -228,0 -413,-185 -413,-413 0,-228 185,-413 413,-413zm0 169c-135,0 -244,109 -244,244 0,134 109,243 244,243 134,0 243,-109 243,-243 0,-135 -109,-244 -243,-244z"/>
-            </g>
-          </svg>
-        </div>
-		
-		<div class="copied_sign" style="opacity: 0">
-		  <span class="copied_sign_text">Copied!</span>
-		  <div class="copied_sign_triangle"></div>
-		</div>
-      </div>
-	  
-	  <span class="list_title">Available</span>
-      <div class="list_container"></div>
-	  <span class="list_title">Available soon</span>
-      <div class="list_container"></div>
-	  <span class="list_title">Taken</span>
-      <div class="list_container"></div>
-	  <span class="list_title">Blocked</span>
-      <div class="list_container"></div>
-	  
-	</div>
-  </body>
-  
-  <script src="js/app.js"></script>
+    </body>
+    
+    <script src="js/app.js"></script>
 </html>
