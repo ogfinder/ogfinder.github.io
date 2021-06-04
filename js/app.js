@@ -216,12 +216,37 @@ function loadEntries(amount) {
   
   var template = document.getElementsByClassName("entry_card")[0];
   
+  var frags = [];
+  
+  for(var i = 0; i < 4; i++) {
+	var frag = document.createDocumentFragment();
+	
+	frags.push(frag);
+  }
+  
   for(var i = loadedTo; i < loadedTo + amount; i++) {
 	if(i >= currentList.length) break;
 	
     var e = currentList[i];
 	
-	addEntry(e, template);
+	addEntry(e, template, frags);
+  }
+  
+  var containers = document.getElementsByClassName("list_container");
+  
+  for(var i = 0; i < frags.length; i++) {
+	var frag = frags[i];
+	
+	if(frag.children.length != 0) {
+	  
+	  var container = containers[i];
+	  
+	  setVisibility(container, true);
+	  
+	  showTitle(i, container);
+	  
+	  container.appendChild(frag);
+    }
   }
   
   loadedTo += amount;
@@ -229,19 +254,7 @@ function loadEntries(amount) {
   setTitleWidths();
 }
 
-window.onscroll = function(ev) {
-  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-    loadEntries(175);
-  }
-};
-
-function addEntry(e, template) {
-  var index = e.status;
-  
-  var container = document.getElementsByClassName("list_container")[index];
-  
-  setVisibility(container, true);
-  
+function addEntry(e, template, frags) {
   var card = template.cloneNode(true);
   
   card.style = "";
@@ -251,7 +264,7 @@ function addEntry(e, template) {
   var tags = card.querySelectorAll('div[class="entry_card_tag"]');
   
   toggleTagVisibility(tags.item(e.status));
-  if(e.og) toggleTagVisibility(tags.item(3));
+  if(e.og) toggleTagVisibility(tags.item(4));
   
   card.addEventListener('click', event => {
     copyToClipboard(e.name);
@@ -261,14 +274,18 @@ function addEntry(e, template) {
   
   addEmoji(card, e);
   
-  container.appendChild(card);
-  
-  showTitle(index, container);
+  frags[e.status].appendChild(card);
 }
 
 function toggleTagVisibility(tag) {
   setVisibility(tag, true);
 }
+
+window.onscroll = function(ev) {
+  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+    loadEntries(175);
+  }
+};
 
 function copyToClipboard(s) {
   var tempInput = document.createElement("input");
