@@ -373,6 +373,9 @@ function selectSortElement(e, type, update) {
   
   span.innerText = e.innerText;
   
+  if(update) sort(type);
+  else sortType = type;
+  
   e.classList.add("selected");
   
   var menu = document.getElementsByClassName("header_sortselect")[0];
@@ -382,9 +385,6 @@ function selectSortElement(e, type, update) {
   for(var option of options.children) {
 	if(option != e) option.classList.remove("selected");
   }
-  
-  if(update) sort(type);
-  else sortType = type;
 }
 
 function addEmoji(card, e) {
