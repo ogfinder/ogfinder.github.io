@@ -414,7 +414,7 @@ function setEmoji(card, emoji) {
   image.style.alignItems = "center";
   
   image.style.marginRight = "9px";
-  card.children[0].style.marginRight = "6px";
+  card.children[0].style.marginRight = "7px";
   
   image.style.pointerEvents = "none";
   
