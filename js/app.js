@@ -43,34 +43,31 @@ loadList();
 function loadList() {
   loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
     loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/blocked_names.txt").then(function(data2){
-	  loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/emojis.txt").then(function(data3){
-		
-		loadEmojis(data3);
-		
-	    var blockedNames = data2.split('\n');
+	  
+	  var blockedNames = data2.split('\n');
+	  
+      var lines = data.split('\n');
+	  
+	  list = [];
+	  
+	  for(var line of lines) {
+	    var split = line.split(" ");
 	    
-        var lines = data.split('\n');
-	    
-	    list = [];
-	    
-	    for(var line of lines) {
-	      var split = line.split(" ");
-	      
-	      list.push({
-		    name: split[0],
-		    popularity: parseFloat(split[1]),
-		    og: false,
-		    status: blockedNames.includes(split[0]) ? 3 : split[2] === "null" ? (isAvailableNow(parseInt(split[3])) ? 0 : 1) : 2
-          });
-	    }
-	    
-	    updateStats();
-	    
-	    var searchInput = document.getElementsByClassName("header_searchbox")[0];
-	    search(searchInput);
-	    
-	    removePreloading();
-	  });
+	    list.push({
+		  name: split[0],
+		  emoji: split[1],
+		  popularity: parseFloat(split[2]),
+		  og: false,
+		  status: blockedNames.includes(split[0]) ? 3 : split[3] === "null" ? (isAvailableNow(parseInt(split[4])) ? 0 : 1) : 2
+        });
+	  }
+      
+	  updateStats();
+	  
+	  var searchInput = document.getElementsByClassName("header_searchbox")[0];
+	  search(searchInput);
+	  
+	  removePreloading();
     });
   });
 }
@@ -296,6 +293,8 @@ function showCopiedSign(card) {
 }
 
 function search(e) {
+  if(query == e.value) return;
+  
   query = e.value;
   
   const url = new URL(location);
@@ -388,69 +387,20 @@ function selectSortElement(e, type, update) {
   else sortType = type;
 }
 
-const emojis = [];
-
-function loadEmojis(data) {
-  var lines = data.split('\n');
-  
-  for(var line of lines) {
-	var split = line.split(",");
-	
-	emojis.push({
-	  code: split[0],
-	  keywords: split.slice(1, split.length)
-	});
-  }
-}
-
 function addEmoji(card, e) {
-  if(e.popularity < 3.75 / 10000000) return;
+  var emoji = e.emoji;
   
-  var url = null;
-  
-  var m = 100;
-  
-  for(var emoji of emojis) {
-	
-	var k = emoji.keywords.length - 1;
-	
-	var i = 0;
-	
-	for(var keyword of emoji.keywords) {
-	  
-      var score = k + i * 3;
-	  
-	  if(i > 2 || score > 5 || score >= m) break;
-	  
-	  if(keyword == e.name) {
-		url = emoji.code;
-		
-		m = score;
-		
-	    break;
-	  }
-	  
-	  i++;
-	}
+  if(emoji != null && emoji !== "undefined") {
+	setEmoji(card, e.emoji);
   }
-  
-  if(url != null) setEmoji(card, url);
 }
 
-function setEmoji(card, url) {
+function setEmoji(card, emoji) {
   var image = document.createElement("img");
   
-  var emoji = "";
+  var unicode = emojiUnicode(emoji);
   
-  var split = url.split("-");
-  
-  for(var s of split) {
-	var utf16 = toUTF16Pair("0x" + s).split(" ");
-	
-    emoji += String.fromCharCode(parseInt("0x" + utf16[0]), parseInt("0x" + utf16[1]));
-  }
-  
-  image.src = "https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/emojis/" + url + ".svg";
+  image.src = "https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/emojis/" + unicode + ".svg";
   image.alt = emoji;
   
   image.style.maxWidth = "19px";
@@ -467,16 +417,25 @@ function setEmoji(card, url) {
   card.insertBefore(image, card.children[1]);
 }
 
-function autoCropSVG(svg) {
-  var bbox = svg.getBBox();
+function emojiUnicode(emoji) {
+  var s = "";
   
-  var viewBox = [bbox.x, bbox.y, bbox.width, bbox.height].join(" ");
+  console.log(emoji);
   
-  svg.setAttribute("viewBox", viewBox);
-}
-
-function toUTF16Pair(x) {
-  return ((((x - 0x10000) >> 0x0a) | 0x0) + 0xD800).toString(16) + ' ' + (((x - 0x10000) & 0x3FF) + 0xDC00).toString(16);
+  console.log(emoji.length);
+  
+  var n = Math.ceil(emoji.length / 2);
+  
+  for(var i = 0; i < n; i++) {
+	  
+	  console.log(emoji.codePointAt(i * 2));
+	  
+	s += emoji.codePointAt(i * 2).toString(16) + (i == n - 1 ? "" : "-");
+  }
+  
+  console.log(s);
+  
+  return s;
 }
 
 function loadText(url) {
