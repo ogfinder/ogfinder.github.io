@@ -404,9 +404,7 @@ function loadEmojis(data) {
 }
 
 function addEmoji(card, e) {
-  if(e.popularity < 1 / 1000000) return;
-  
-  console.log(e.name);
+  if(e.popularity < 3.75 / 10000000) return;
   
   var url = null;
   
@@ -414,18 +412,20 @@ function addEmoji(card, e) {
   
   for(var emoji of emojis) {
 	
+	var k = emoji.keywords.length - 1;
+	
 	var i = 0;
 	
 	for(var keyword of emoji.keywords) {
 	  
-	  if(i >= m) break;
+      var score = k + i * 3;
+	  
+	  if(i > 2 || score >= m) break;
 	  
 	  if(keyword == e.name) {
 		url = emoji.code;
 		
-		m = i;
-		
-		console.log(emoji);
+		m = score;
 		
 	    break;
 	  }
