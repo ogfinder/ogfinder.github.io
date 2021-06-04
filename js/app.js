@@ -391,11 +391,28 @@ function selectSortElement(e, type, update) {
 const emojis = [];
 
 function loadEmojis(data) {
-  //console.log(data);
+  var lines = data.split('\n');
+  
+  for(var line of lines) {
+	var split = line.split(",");
+	
+	emojis.push({
+	  code: split[0],
+	  keywords: split.slice(1, split.length)
+	});
+  }
 }
 
 function addEmoji(card, e) {
-  var url = emojis[e.name];
+  var url = null;
+  
+  for(var emoji of emojis) {
+	if(emoji.keywords[0].includes(e.name)) {
+	  url = emoji.code;
+	  
+	  break;
+	}
+  }
   
   if(url != null) setEmoji(card, url);
 }
