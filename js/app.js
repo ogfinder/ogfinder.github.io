@@ -404,13 +404,33 @@ function loadEmojis(data) {
 }
 
 function addEmoji(card, e) {
+  if(e.popularity < 1 / 1000000) return
+  
+  console.log(e.name);
+  
   var url = null;
   
+  var m = 100;
+  
   for(var emoji of emojis) {
-	if(emoji.keywords[0].includes(e.name)) {
-	  url = emoji.code;
+	
+	var i = 0;
+	
+	for(var keyword of emoji.keywords) {
 	  
-	  break;
+	  if(i >= m) break;
+	  
+	  if(keyword == e.name) {
+		url = emoji.code;
+		
+		m = i;
+		
+		console.log(emoji);
+		
+	    break;
+	  }
+	  
+	  i++;
 	}
   }
   

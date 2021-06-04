@@ -1,4 +1,4 @@
-1f600,face,grin
+1f600,grinning face,face,grin
 1f603,face,mouth,open,smile
 1f604,eye,face,mouth,open,smile
 1f601,eye,face,grin,smile
@@ -8,195 +8,196 @@
 1f602,face,joy,laugh,tear
 1f642,face,smile
 1f643,face
-1f609,face,wink
+1f609,winking face,face,wink
 1f60a,blush,eye,face,smile
 1f607,angel,face,fantasy,halo,innocent
-1f970,adore,crush,hearts
+1f970,adore,crush,hearts,in love
 1f60d,eye,face,love,smile
 1f929,eyes,face,grinning,star
-1f618,face,kiss
-1f617,face,kiss
-263a,face,outlined,relaxed,smile
+1f618,face blowing a kiss,face,kiss
+1f617,kissing face,face,kiss
+263a,smiling face,face,outlined,relaxed,smile
 1f61a,closed,eye,face,kiss
 1f619,eye,face,kiss,smile
 1f972,grateful,proud,relieved,smiling,tear,touched
-1f60b,delicious,face,savouring,smile,yum
-1f61b,face,tongue
+1f60b,face savoring food,delicious,face,savouring,smile,yum
+1f61b,face with tongue,face,tongue
 1f61c,eye,face,joke,tongue,wink
-1f92a,eye,goofy,large,small
+1f92a,zany face,eye,goofy,large,small
 1f61d,eye,face,horrible,taste,tongue
 1f911,face,money,mouth
-1f917,face,hug,hugging
+1f917,hugging face,face,hug,hugging
 1f92d,whoops,shock,surprise
-1f92b,quiet,shush
-1f914,face,thinking
+1f92b,shushing face,quiet,shush
+1f914,thinking face,face,thinking
 1f910,face,mouth,zipper
-1f928,distrust,skeptic,disapproval,disbelief,scepticism
-1f610,deadpan,face,meh,neutral
+1f928,distrust,skeptic,disapproval,disbelief,mild surprise,scepticism
+1f610,neutral face,deadpan,face,meh,neutral
 1f611,expressionless,face,inexpressive,meh,unexpressive
-1f636,face,mouth,quiet,silent
-1f636-200d-1f32b-fe0f,absentminded
-1f60f,face,smirk
-1f612,face,unamused,unhappy
+1f636,face without mouth,face,mouth,quiet,silent
+1f636-200d-1f32b-fe0f,absentminded,face in clouds,face in the fog,head in clouds
+1f60f,smirking face,face,smirk
+1f612,unamused face,face,unamused,unhappy
 1f644,eyeroll,eyes,face,rolling
-1f62c,face,grimace
-1f62e-200d-1f4a8,exhale,gasp,groan,relief,whisper,whistle
-1f925,face,lie,pinocchio
-1f60c,face,relieved
-1f614,dejected,face,pensive
-1f62a,face,sleep
-1f924,drooling,face
-1f634,face,sleep,zzz
+1f62c,grimacing face,face,grimace
+1f62e-200d-1f4a8,exhale,face exhaling,gasp,groan,relief,whisper,whistle
+1f925,lying face,face,lie,pinocchio
+1f60c,relieved face,face,relieved
+1f614,pensive face,dejected,face,pensive
+1f62a,sleepy face,face,sleep
+1f924,drooling face,drooling,face
+1f634,sleeping face,face,sleep,zzz
 1f637,cold,doctor,face,mask,sick
 1f912,face,ill,sick,thermometer
 1f915,bandage,face,hurt,injury
-1f922,face,nauseated,vomit
-1f92e,puke,sick,vomit
-1f927,face,gesundheit,sneeze
-1f975,feverish,hot,sweating
-1f976,cold,freezing,frostbite,icicles
-1f974,dizzy,intoxicated,tipsy
-1f635,dead,face
+1f922,nauseated face,face,nauseated,vomit
+1f92e,face vomiting,puke,sick,vomit
+1f927,sneezing face,face,gesundheit,sneeze
+1f975,hot face,feverish,heat stroke,hot,sweating
+1f976,cold face,cold,freezing,frostbite,icicles
+1f974,woozy face,dizzy,intoxicated,tipsy,uneven eyes,wavy mouth
+1f635,dead,face,knocked out
 1f635-200d-1f4ab,dizzy,hypnotized,spiral,trouble,whoa
-1f92f,shocked
-1f920,cowboy,cowgirl,face,hat
-1f973,celebration,hat,horn,party
-1f978,disguise,face,glasses,incognito,nose
+1f92f,exploding head,mind blown,shocked
+1f920,cowboy hat face,cowboy,cowgirl,face,hat
+1f973,partying face,celebration,hat,horn,party
+1f978,disguised face,disguise,face,glasses,incognito,nose
 1f60e,bright,cool,face,sun,sunglasses
-1f913,face,geek,nerd
-1f9d0,stuffy,wealthy
-1f615,confused,face,meh
-1f61f,face,worried
+1f913,nerd face,face,geek,nerd
+1f9d0,face with monocle,stuffy,wealthy
+1f615,confused face,confused,face,meh
+1f61f,worried face,face,worried
 1f641,face,frown
-2639,face,frown
+2639,frowning face,face,frown
 1f62e,face,mouth,open,sympathy
-1f62f,face,hushed,stunned,surprised
-1f632,astonished,face,shocked,totally
-1f633,dazed,face,flushed
-1f97a,begging,mercy
+1f62f,hushed face,face,hushed,stunned,surprised
+1f632,astonished face,astonished,face,shocked,totally
+1f633,flushed face,dazed,face,flushed
+1f97a,pleading face,begging,mercy,puppy eyes
 1f626,face,frown,mouth,open
-1f627,anguished,face
-1f628,face,fear,fearful,scared
+1f627,anguished face,anguished,face
+1f628,fearful face,face,fear,fearful,scared
 1f630,blue,cold,face,rushed,sweat
 1f625,disappointed,face,relieved,whew
-1f622,cry,face,sad,tear
-1f62d,cry,face,sad,sob,tear
+1f622,crying face,cry,face,sad,tear
+1f62d,loudly crying face,cry,face,sad,sob,tear
 1f631,face,fear,munch,scared,scream
-1f616,confounded,face
-1f623,face,persevere
-1f61e,disappointed,face
+1f616,confounded face,confounded,face
+1f623,persevering face,face,persevere
+1f61e,disappointed face,disappointed,face
 1f613,cold,face,sweat
-1f629,face,tired,weary
-1f62b,face,tired
-1f971,bored,tired,yawn
+1f629,weary face,face,tired,weary
+1f62b,tired face,face,tired
+1f971,yawning face,bored,tired,yawn
 1f624,face,triumph,won
-1f621,angry,face,mad,pouting,rage,red
-1f620,anger,angry,face,mad
+1f621,pouting face,angry,face,mad,pouting,rage,red
+1f620,angry face,anger,angry,face,mad
 1f92c,swearing,cursing
-1f608,face,fantasy,horns,smile
+1f608,face,fairy tale,fantasy,horns,smile
 1f47f,demon,devil,face,fantasy,imp
-1f480,skull,death,face,monster
+1f480,skull,death,face,fairy tale,monster
 2620,crossbones,death,face,monster,skull
-1f4a9,dung,face,monster,poo,poop
-1f921,clown,face
-1f479,ogre,creature,face,fantasy,monster,troll
-1f47a,goblin,creature,face,fantasy,monster
-1f47b,ghost,creature,face,fantasy,monster
+1f4a9,pile of poo,dung,face,monster,poo,poop
+1f921,clown face,clown,face
+1f479,ogre,creature,face,fairy tale,fantasy,monster,troll
+1f47a,goblin,creature,face,fairy tale,fantasy,monster
+1f47b,ghost,creature,face,fairy tale,fantasy,monster
 1f47d,alien,creature,extraterrestrial,face,fantasy,ufo
-1f47e,alien,creature,extraterrestrial,face,monster,ufo
+1f47e,alien monster,alien,creature,extraterrestrial,face,monster,ufo
 1f916,robot,face,monster
-1f63a,cat,face,grinning,mouth,open,smile
+1f63a,grinning cat,cat,face,grinning,mouth,open,smile
 1f638,cat,eye,face,grin,smile
 1f639,cat,face,joy,tear
 1f63b,cat,eye,face,heart,love,smile
-1f63c,cat,face,ironic,smile,wry
-1f63d,cat,eye,face,kiss
-1f640,cat,face,surprised,weary
-1f63f,cat,cry,face,sad,tear
-1f63e,cat,face,pouting
+1f63c,cat with wry smile,cat,face,ironic,smile,wry
+1f63d,kissing cat,cat,eye,face,kiss
+1f640,weary cat,cat,face,surprised,weary
+1f63f,crying cat,cat,cry,face,sad,tear
+1f63e,pouting cat,cat,face,pouting
 1f648,evil,face,forbidden,monkey,see
 1f649,evil,face,forbidden,hear,monkey
 1f64a,evil,face,forbidden,monkey,speak
-1f48b,kiss,lips
-1f48c,heart,letter,love,mail
-1f498,arrow,cupid
-1f49d,ribbon,valentine
-1f496,excited,sparkle
-1f497,excited,growing,nervous,pulse
-1f493,beating,heartbeat,pulsating
-1f49e,revolving
-1f495,love
-1f49f,heart
-2763,exclamation,mark,punctuation
-1f494,break,broken
-2764-fe0f-200d-1f525,burn,heart,love,lust
-2764-fe0f-200d-1fa79,healthier,improving,mending,recovering,recuperating,well
-2764,heart
-1f9e1,orange
-1f49b,yellow
-1f49a,green
-1f499,blue
-1f49c,purple
-1f90e,brown,heart
-1f5a4,black,evil,wicked
-1f90d,heart,white
-1f4af,100,full,hundred,score
-1f4a2,angry,comic,mad
+1f48b,kiss mark,kiss,lips
+1f48c,love letter,heart,letter,love,mail
+1f498,heart with arrow,arrow,cupid
+1f49d,heart with ribbon,ribbon,valentine
+1f496,sparkling heart,excited,sparkle
+1f497,growing heart,excited,growing,nervous,pulse
+1f493,beating heart,beating,heartbeat,pulsating
+1f49e,revolving hearts,revolving
+1f495,two hearts,love
+1f49f,heart decoration,heart
+2763,heart exclamation,exclamation,mark,punctuation
+1f494,broken heart,break,broken
+2764-fe0f-200d-1f525,burn,heart,heart on fire,love,lust,sacred heart
+2764-fe0f-200d-1fa79,healthier,improving,mending,mending heart,recovering,recuperating,well
+2764,red heart,heart
+1f9e1,orange heart,orange
+1f49b,yellow heart,yellow
+1f49a,green heart,green
+1f499,blue heart,blue
+1f49c,purple heart,purple
+1f90e,brown heart,brown,heart
+1f5a4,black heart,black,evil,wicked
+1f90d,white heart,heart,white
+1f4af,hundred points,100,full,hundred,score
+1f4a2,anger symbol,angry,comic,mad
 1f4a5,collision,boom,comic
 1f4ab,dizzy,comic,star
-1f4a6,comic,splashing,sweat
-1f4a8,comic,dash,running
+1f4a6,sweat droplets,comic,splashing,sweat
+1f4a8,dashing away,comic,dash,running
 1f573,hole
 1f4a3,bomb,comic
-1f4ac,balloon,bubble,comic,dialog,speech
-1f441-fe0f-200d-1f5e8-fe0f,eye,witness
-1f5e8,dialog,speech
-1f5ef,angry,balloon,bubble,mad
-1f4ad,balloon,bubble,comic,thought
+1f4ac,speech balloon,balloon,bubble,comic,dialog,speech
+1f441-fe0f-200d-1f5e8-fe0f,eye,speech bubble,witness
+1f5e8,left speech bubble,dialog,speech
+1f5ef,right anger bubble,angry,balloon,bubble,mad
+1f4ad,thought balloon,balloon,bubble,comic,thought
 1f4a4,zzz,comic,sleep
-1f44b,hand,wave,waving
-1f91a,backhand,raised
+1f44b,waving hand,hand,wave,waving
+1f91a,raised back of hand,backhand,raised
 1f590,finger,hand,splayed
-270b,hand
-1f596,finger,hand,spock,vulcan
-1f44c,hand
-1f90c,fingers,interrogation,pinched,sarcastic
-270c,hand,victory
-1f91e,cross,finger,hand,luck
+270b,raised hand,hand,high 5,high five
+1f596,vulcan salute,finger,hand,spock,vulcan
+1f44c,ok hand,hand
+1f90c,pinched fingers,fingers,hand gesture,interrogation,pinched,sarcastic
+1f90f,pinching hand,small amount
+270c,victory hand,hand,victory
+1f91e,crossed fingers,cross,finger,hand,luck
 1f91f,hand,ily
-1f918,finger,hand,horns
-1f919,call,hand
+1f918,sign of the horns,finger,hand,horns
+1f919,call me hand,call,hand
 1f448,backhand,finger,hand,index,point
 1f449,backhand,finger,hand,index,point
 1f446,backhand,finger,hand,point
-1f595,finger,hand
+1f595,middle finger,finger,hand
 1f447,backhand,down,finger,hand,point
-261d,finger,hand,index,point
-1f44d,hand,thumb
-1f44e,down,hand,thumb
-270a,clenched,fist,hand,punch
-1f44a,clenched,fist,hand,punch
+261d,index pointing up,finger,hand,index,point
+1f44d,thumbs up,hand,thumb
+1f44e,thumbs down,down,hand,thumb
+270a,raised fist,clenched,fist,hand,punch
+1f44a,oncoming fist,clenched,fist,hand,punch
 1f91b,fist,leftwards
 1f91c,fist,rightwards
-1f44f,clap,hand
-1f64c,celebration,gesture,hand,hooray,raised
-1f450,hand,open
-1f932,prayer
+1f44f,clapping hands,clap,hand
+1f64c,raising hands,celebration,gesture,hand,hooray,raised
+1f450,open hands,hand,open
+1f932,palms up together,prayer,cupped hands
 1f91d,handshake,agreement,hand,meeting,shake
-1f64f,ask,hand,please,pray,thanks
-270d,hand,write
-1f485,care,cosmetics,manicure,nail,polish
+1f64f,folded hands,ask,hand,high 5,high five,please,pray,thanks
+270d,writing hand,hand,write
+1f485,nail polish,care,cosmetics,manicure,nail,polish
 1f933,selfie,camera,phone
-1f4aa,biceps,comic,flex,muscle
-1f9be,accessibility,prosthetic
-1f9bf,accessibility,prosthetic
+1f4aa,flexed biceps,biceps,comic,flex,muscle
+1f9be,mechanical arm,accessibility,prosthetic
+1f9bf,mechanical leg,accessibility,prosthetic
 1f9b5,leg,kick,limb
 1f9b6,foot,kick,stomp
 1f442,ear,body
-1f9bb,accessibility
+1f9bb,accessibility,hard of hearing
 1f443,nose,body
 1f9e0,brain,intelligent
-1fac0,anatomical,cardiology,heart,organ,pulse
+1fac0,anatomical heart,anatomical,cardiology,heart,organ,pulse
 1fac1,lungs,breath,exhalation,inhalation,organ,respiration
 1f9b7,tooth,dentist
 1f9b4,bone,skeleton
@@ -214,180 +215,181 @@
 1f9d4,beard,person,bewhiskered
 1f9d4-200d-2642-fe0f,beard,man
 1f9d4-200d-2640-fe0f,beard,woman
-1f468-200d-1f9b0,adult,man
-1f468-200d-1f9b1,adult,man
-1f468-200d-1f9b3,adult,man
+1f468-200d-1f9b0,adult,man,red hair
+1f468-200d-1f9b1,adult,curly hair,man
+1f468-200d-1f9b3,adult,man,white hair
 1f468-200d-1f9b2,adult,bald,man
 1f469,woman,adult
-1f469-200d-1f9b0,adult,woman
-1f9d1-200d-1f9b0,adult,person
-1f469-200d-1f9b1,adult,woman
-1f9d1-200d-1f9b1,adult,person
-1f469-200d-1f9b3,adult,woman
-1f9d1-200d-1f9b3,adult,person
+1f469-200d-1f9b0,adult,red hair,woman
+1f9d1-200d-1f9b0,adult,person,red hair
+1f469-200d-1f9b1,adult,curly hair,woman
+1f9d1-200d-1f9b1,adult,curly hair,person
+1f469-200d-1f9b3,adult,white hair,woman
+1f9d1-200d-1f9b3,adult,person,white hair
 1f469-200d-1f9b2,adult,bald,woman
 1f9d1-200d-1f9b2,adult,bald,person
 1f471-200d-2640-fe0f,blonde,hair,woman
 1f471-200d-2642-fe0f,blond,hair,man
-1f9d3,adult,old
-1f474,adult,man,old
-1f475,adult,old,woman
-1f64d,frown,gesture
-1f64d-200d-2642-fe0f,frowning,gesture,man
-1f64d-200d-2640-fe0f,frowning,gesture,woman
-1f64e,gesture,pouting
-1f64e-200d-2642-fe0f,gesture,man,pouting
-1f64e-200d-2640-fe0f,gesture,pouting,woman
+1f9d3,older person,adult,old
+1f474,old man,adult,man,old
+1f475,old woman,adult,old,woman
+1f64d,person frowning,frown,gesture
+1f64d-200d-2642-fe0f,man frowning,frowning,gesture,man
+1f64d-200d-2640-fe0f,woman frowning,frowning,gesture,woman
+1f64e,person pouting,gesture,pouting
+1f64e-200d-2642-fe0f,man pouting,gesture,man,pouting
+1f64e-200d-2640-fe0f,woman pouting,gesture,pouting,woman
 1f645,forbidden,gesture,hand,prohibited
-1f645-200d-2642-fe0f,forbidden,gesture,hand,man,prohibited
-1f645-200d-2640-fe0f,forbidden,gesture,hand,prohibited,woman
+1f645-200d-2642-fe0f,man gesturing no,forbidden,gesture,hand,man,prohibited
+1f645-200d-2640-fe0f,woman gesturing no,forbidden,gesture,hand,prohibited,woman
 1f646,gesture,hand
-1f646-200d-2642-fe0f,gesture,hand,man
-1f646-200d-2640-fe0f,gesture,hand,woman
+1f646-200d-2642-fe0f,man gesturing ok,gesture,hand,man
+1f646-200d-2640-fe0f,woman gesturing ok,gesture,hand,woman
 1f481,hand,help,information,sassy,tipping
-1f481-200d-2642-fe0f,man,sassy
-1f481-200d-2640-fe0f,sassy,woman
+1f481-200d-2642-fe0f,man tipping hand,man,sassy,tipping hand
+1f481-200d-2640-fe0f,woman tipping hand,sassy,tipping hand,woman
 1f64b,gesture,hand,happy,raised
-1f64b-200d-2642-fe0f,gesture,man
-1f64b-200d-2640-fe0f,gesture,woman
-1f9cf,accessibility,deaf,ear,hear
-1f9cf-200d-2642-fe0f,deaf,man
-1f9cf-200d-2640-fe0f,deaf,woman
-1f647,apology,bow,gesture,sorry
-1f647-200d-2642-fe0f,apology,bowing,favor,gesture,man,sorry
-1f647-200d-2640-fe0f,apology,bowing,favor,gesture,sorry,woman
+1f64b-200d-2642-fe0f,man raising hand,gesture,man,raising hand
+1f64b-200d-2640-fe0f,woman raising hand,gesture,raising hand,woman
+1f9cf,deaf person,accessibility,deaf,ear,hear
+1f9cf-200d-2642-fe0f,deaf man,deaf,man
+1f9cf-200d-2640-fe0f,deaf woman,deaf,woman
+1f647,person bowing,apology,bow,gesture,sorry
+1f647-200d-2642-fe0f,man bowing,apology,bowing,favor,gesture,man,sorry
+1f647-200d-2640-fe0f,woman bowing,apology,bowing,favor,gesture,sorry,woman
 1f926,disbelief,exasperation,face,palm
-1f926-200d-2642-fe0f,disbelief,exasperation,facepalm,man
-1f926-200d-2640-fe0f,disbelief,exasperation,facepalm,woman
-1f937,doubt,ignorance,indifference,shrug
-1f937-200d-2642-fe0f,doubt,ignorance,indifference,man,shrug
-1f937-200d-2640-fe0f,doubt,ignorance,indifference,shrug,woman
-1f9d1-200d-2695-fe0f,doctor,healthcare,nurse,therapist
-1f468-200d-2695-fe0f,doctor,healthcare,man,nurse,therapist
+1f926-200d-2642-fe0f,man facepalming,disbelief,exasperation,facepalm,man
+1f926-200d-2640-fe0f,woman facepalming,disbelief,exasperation,facepalm,woman
+1f937,person shrugging,doubt,ignorance,indifference,shrug
+1f937-200d-2642-fe0f,man shrugging,doubt,ignorance,indifference,man,shrug
+1f937-200d-2640-fe0f,woman shrugging,doubt,ignorance,indifference,shrug,woman
+1f9d1-200d-2695-fe0f,health worker,doctor,healthcare,nurse,therapist
+1f468-200d-2695-fe0f,man health worker,doctor,healthcare,man,nurse,therapist
 1f469-200d-2695-fe0f,doctor,healthcare,nurse,therapist,woman
 1f9d1-200d-1f393,student,graduate
-1f468-200d-1f393,graduate,man,student
-1f469-200d-1f393,graduate,student,woman
+1f468-200d-1f393,man student,graduate,man,student
+1f469-200d-1f393,woman student,graduate,student,woman
 1f9d1-200d-1f3eb,teacher,instructor,professor
-1f468-200d-1f3eb,instructor,man,professor,teacher
-1f469-200d-1f3eb,instructor,professor,teacher,woman
+1f468-200d-1f3eb,man teacher,instructor,man,professor,teacher
+1f469-200d-1f3eb,woman teacher,instructor,professor,teacher,woman
 1f9d1-200d-2696-fe0f,judge,justice,scales
-1f468-200d-2696-fe0f,judge,justice,man,scales
-1f469-200d-2696-fe0f,judge,justice,scales,woman
+1f468-200d-2696-fe0f,man judge,judge,justice,man,scales
+1f469-200d-2696-fe0f,woman judge,judge,justice,scales,woman
 1f9d1-200d-1f33e,farmer,gardener,rancher
-1f468-200d-1f33e,farmer,gardener,man,rancher
-1f469-200d-1f33e,farmer,gardener,rancher,woman
+1f468-200d-1f33e,man farmer,farmer,gardener,man,rancher
+1f469-200d-1f33e,woman farmer,farmer,gardener,rancher,woman
 1f9d1-200d-1f373,cook,chef
-1f468-200d-1f373,chef,cook,man
-1f469-200d-1f373,chef,cook,woman
+1f468-200d-1f373,man cook,chef,cook,man
+1f469-200d-1f373,woman cook,chef,cook,woman
 1f9d1-200d-1f527,mechanic,electrician,plumber,tradesperson
-1f468-200d-1f527,electrician,man,mechanic,plumber,tradesperson
-1f469-200d-1f527,electrician,mechanic,plumber,tradesperson,woman
-1f9d1-200d-1f3ed,assembly,factory,industrial,worker
-1f468-200d-1f3ed,assembly,factory,industrial,man,worker
+1f468-200d-1f527,man mechanic,electrician,man,mechanic,plumber,tradesperson
+1f469-200d-1f527,woman mechanic,electrician,mechanic,plumber,tradesperson,woman
+1f9d1-200d-1f3ed,factory worker,assembly,factory,industrial,worker
+1f468-200d-1f3ed,man factory worker,assembly,factory,industrial,man,worker
 1f469-200d-1f3ed,assembly,factory,industrial,woman,worker
-1f9d1-200d-1f4bc,architect,business,manager
-1f468-200d-1f4bc,architect,business,man,manager
+1f9d1-200d-1f4bc,office worker,architect,business,manager
+1f468-200d-1f4bc,man office worker,architect,business,man,manager
 1f469-200d-1f4bc,architect,business,manager,woman
 1f9d1-200d-1f52c,scientist,biologist,chemist,engineer,physicist
-1f468-200d-1f52c,biologist,chemist,engineer,man,physicist,scientist
-1f469-200d-1f52c,biologist,chemist,engineer,physicist,scientist,woman
+1f468-200d-1f52c,man scientist,biologist,chemist,engineer,man,physicist,scientist
+1f469-200d-1f52c,woman scientist,biologist,chemist,engineer,physicist,scientist,woman
 1f9d1-200d-1f4bb,technologist,coder,developer,inventor,software
-1f468-200d-1f4bb,coder,developer,inventor,man,software,technologist
+1f468-200d-1f4bb,man technologist,coder,developer,inventor,man,software,technologist
 1f469-200d-1f4bb,coder,developer,inventor,software,technologist,woman
 1f9d1-200d-1f3a4,singer,actor,entertainer,rock,star
-1f468-200d-1f3a4,actor,entertainer,man,rock,singer,star
-1f469-200d-1f3a4,actor,entertainer,rock,singer,star,woman
+1f468-200d-1f3a4,man singer,actor,entertainer,man,rock,singer,star
+1f469-200d-1f3a4,woman singer,actor,entertainer,rock,singer,star,woman
 1f9d1-200d-1f3a8,artist,palette
-1f468-200d-1f3a8,artist,man,palette
-1f469-200d-1f3a8,artist,palette,woman
+1f468-200d-1f3a8,man artist,artist,man,palette
+1f469-200d-1f3a8,woman artist,artist,palette,woman
 1f9d1-200d-2708-fe0f,pilot,plane
-1f468-200d-2708-fe0f,man,pilot,plane
-1f469-200d-2708-fe0f,pilot,plane,woman
+1f468-200d-2708-fe0f,man pilot,man,pilot,plane
+1f469-200d-2708-fe0f,woman pilot,pilot,plane,woman
 1f9d1-200d-1f680,astronaut,rocket
-1f468-200d-1f680,astronaut,man,rocket
-1f469-200d-1f680,astronaut,rocket,woman
+1f468-200d-1f680,man astronaut,astronaut,man,rocket
+1f469-200d-1f680,woman astronaut,astronaut,rocket,woman
 1f9d1-200d-1f692,firefighter,firetruck
-1f468-200d-1f692,firefighter,firetruck,man
-1f469-200d-1f692,firefighter,firetruck,woman
-1f46e,cop,officer,police
-1f46e-200d-2642-fe0f,cop,man,officer,police
+1f468-200d-1f692,man firefighter,firefighter,firetruck,man
+1f469-200d-1f692,woman firefighter,firefighter,firetruck,woman
+1f46e,police officer,cop,officer,police
+1f46e-200d-2642-fe0f,man police officer,cop,man,officer,police
 1f46e-200d-2640-fe0f,cop,officer,police,woman
 1f575,detective,sleuth,spy
-1f575-fe0f-200d-2642-fe0f,detective,man,sleuth,spy
-1f575-fe0f-200d-2640-fe0f,detective,sleuth,spy,woman
+1f575-fe0f-200d-2642-fe0f,man detective,detective,man,sleuth,spy
+1f575-fe0f-200d-2640-fe0f,woman detective,detective,sleuth,spy,woman
 1f482,guard
-1f482-200d-2642-fe0f,guard,man
-1f482-200d-2640-fe0f,guard,woman
+1f482-200d-2642-fe0f,man guard,guard,man
+1f482-200d-2640-fe0f,woman guard,guard,woman
 1f977,ninja,fighter,hidden,stealth
 1f477,construction,hat,worker
 1f477-200d-2642-fe0f,construction,man,worker
 1f477-200d-2640-fe0f,construction,woman,worker
 1f934,prince
-1f478,princess,fantasy
+1f478,princess,fairy tale,fantasy
 1f473,turban
-1f473-200d-2642-fe0f,man,turban
+1f473-200d-2642-fe0f,man wearing turban,man,turban
 1f473-200d-2640-fe0f,turban,woman
-1f472,cap,hat,person,skullcap
-1f9d5,headscarf,hijab,mantilla,tichel,bandana
-1f935,groom,person,tuxedo
-1f935-200d-2642-fe0f,man,tuxedo
-1f935-200d-2640-fe0f,tuxedo,woman
-1f470,bride,person,veil,wedding
-1f470-200d-2642-fe0f,man,veil
-1f470-200d-2640-fe0f,veil,woman
-1f930,pregnant,woman
+1f472,cap,gua pi mao,hat,person,skullcap
+1f9d5,headscarf,hijab,mantilla,tichel,bandana,head kerchief
+1f935,person in tuxedo,groom,person,tuxedo
+1f935-200d-2642-fe0f,man in tuxedo,man,tuxedo
+1f935-200d-2640-fe0f,woman in tuxedo,tuxedo,woman
+1f470,person with veil,bride,person,veil,wedding
+1f470-200d-2642-fe0f,man with veil,man,veil
+1f470-200d-2640-fe0f,woman with veil,veil,woman
+1f930,pregnant woman,pregnant,woman
 1f931,baby,breast,nursing
-1f469-200d-1f37c,baby,feeding,nursing,woman
-1f468-200d-1f37c,baby,feeding,man,nursing
+1f469-200d-1f37c,woman feeding baby,baby,feeding,nursing,woman
+1f468-200d-1f37c,man feeding baby,baby,feeding,man,nursing
 1f9d1-200d-1f37c,baby,feeding,nursing,person
-1f47c,angel,baby,face,fantasy
-1f385,celebration,christmas,claus,father,santa
+1f47c,baby angel,angel,baby,face,fairy tale,fantasy
+1f385,santa claus,celebration,christmas,claus,father,santa
 1f936,celebration,christmas,claus,mother
+1f9d1-200d-1f384,mx claus
 1f9b8,superhero,good,hero,heroine,superpower
-1f9b8-200d-2642-fe0f,good,hero,man,superpower
-1f9b8-200d-2640-fe0f,good,hero,heroine,superpower,woman
+1f9b8-200d-2642-fe0f,man superhero,good,hero,man,superpower
+1f9b8-200d-2640-fe0f,woman superhero,good,hero,heroine,superpower,woman
 1f9b9,supervillain,criminal,evil,superpower,villain
-1f9b9-200d-2642-fe0f,criminal,evil,man,superpower,villain
+1f9b9-200d-2642-fe0f,man supervillain,criminal,evil,man,superpower,villain
 1f9b9-200d-2640-fe0f,criminal,evil,superpower,villain,woman
 1f9d9,mage,sorcerer,sorceress,witch,wizard
-1f9d9-200d-2642-fe0f,sorcerer,wizard
-1f9d9-200d-2640-fe0f,sorceress,witch
+1f9d9-200d-2642-fe0f,man mage,sorcerer,wizard
+1f9d9-200d-2640-fe0f,woman mage,sorceress,witch
 1f9da,fairy,oberon,puck,titania
-1f9da-200d-2642-fe0f,oberon,puck
-1f9da-200d-2640-fe0f,titania
+1f9da-200d-2642-fe0f,man fairy,oberon,puck
+1f9da-200d-2640-fe0f,woman fairy,titania
 1f9db,vampire,dracula,undead
-1f9db-200d-2642-fe0f,dracula,undead
-1f9db-200d-2640-fe0f,undead
+1f9db-200d-2642-fe0f,man vampire,dracula,undead
+1f9db-200d-2640-fe0f,woman vampire,undead
 1f9dc,merperson,mermaid,merman,merwoman
 1f9dc-200d-2642-fe0f,merman,triton
 1f9dc-200d-2640-fe0f,mermaid,merwoman
-1f9dd,elf,magical
-1f9dd-200d-2642-fe0f,magical
-1f9dd-200d-2640-fe0f,magical
+1f9dd,elf,magical,lotr style
+1f9dd-200d-2642-fe0f,man elf,magical
+1f9dd-200d-2640-fe0f,woman elf,magical
 1f9de,genie,djinn
-1f9de-200d-2642-fe0f,djinn
-1f9de-200d-2640-fe0f,djinn
-1f9df,zombie,undead
-1f9df-200d-2642-fe0f,undead
-1f9df-200d-2640-fe0f,undead
+1f9de-200d-2642-fe0f,man genie,djinn
+1f9de-200d-2640-fe0f,woman genie,djinn
+1f9df,zombie,undead,walking dead
+1f9df-200d-2642-fe0f,man zombie,undead,walking dead
+1f9df-200d-2640-fe0f,woman zombie,undead,walking dead
 1f486,face,massage,salon
 1f486-200d-2642-fe0f,face,man,massage
 1f486-200d-2640-fe0f,face,massage,woman
 1f487,barber,beauty,haircut,parlor
 1f487-200d-2642-fe0f,haircut,man
 1f487-200d-2640-fe0f,haircut,woman
-1f6b6,hike,walk,walking
-1f6b6-200d-2642-fe0f,hike,man,walk
-1f6b6-200d-2640-fe0f,hike,walk,woman
-1f9cd,stand,standing
-1f9cd-200d-2642-fe0f,man,standing
-1f9cd-200d-2640-fe0f,standing,woman
-1f9ce,kneel,kneeling
-1f9ce-200d-2642-fe0f,kneeling,man
-1f9ce-200d-2640-fe0f,kneeling,woman
+1f6b6,person walking,hike,walk,walking
+1f6b6-200d-2642-fe0f,man walking,hike,man,walk
+1f6b6-200d-2640-fe0f,woman walking,hike,walk,woman
+1f9cd,person standing,stand,standing
+1f9cd-200d-2642-fe0f,man standing,man,standing
+1f9cd-200d-2640-fe0f,woman standing,standing,woman
+1f9ce,person kneeling,kneel,kneeling
+1f9ce-200d-2642-fe0f,man kneeling,kneeling,man
+1f9ce-200d-2640-fe0f,woman kneeling,kneeling,woman
 1f9d1-200d-1f9af,accessibility,blind
-1f468-200d-1f9af,accessibility,blind,man
+1f468-200d-1f9af,man with white cane,accessibility,blind,man
 1f469-200d-1f9af,accessibility,blind,woman
 1f9d1-200d-1f9bc,accessibility,wheelchair
 1f468-200d-1f9bc,accessibility,man,wheelchair
@@ -395,81 +397,81 @@
 1f9d1-200d-1f9bd,accessibility,wheelchair
 1f468-200d-1f9bd,accessibility,man,wheelchair
 1f469-200d-1f9bd,accessibility,wheelchair,woman
-1f3c3,marathon,running
-1f3c3-200d-2642-fe0f,man,marathon,racing,running
-1f3c3-200d-2640-fe0f,marathon,racing,running,woman
-1f483,dance,dancing,woman
-1f57a,dance,dancing,man
+1f3c3,person running,marathon,running
+1f3c3-200d-2642-fe0f,man running,man,marathon,racing,running
+1f3c3-200d-2640-fe0f,woman running,marathon,racing,running,woman
+1f483,woman dancing,dance,dancing,woman
+1f57a,man dancing,dance,dancing,man
 1f574,business,person,suit
-1f46f,dancer,partying
-1f46f-200d-2642-fe0f,dancer,men,partying
-1f46f-200d-2640-fe0f,dancer,partying,women
-1f9d6,sauna,hamam,steambath
-1f9d6-200d-2642-fe0f,sauna
-1f9d6-200d-2640-fe0f,sauna
-1f9d7,climber
-1f9d7-200d-2642-fe0f,climber
-1f9d7-200d-2640-fe0f,climber
-1f93a,fencer,fencing,sword
-1f3c7,horse,jockey,racehorse,racing
+1f46f,bunny ear,dancer,partying
+1f46f-200d-2642-fe0f,men with bunny ears,bunny ear,dancer,men,partying
+1f46f-200d-2640-fe0f,bunny ear,dancer,partying,women
+1f9d6,sauna,steam room,hamam,steambath
+1f9d6-200d-2642-fe0f,man in steamy room,sauna,steam room
+1f9d6-200d-2640-fe0f,sauna,steam room
+1f9d7,person climbing,climber
+1f9d7-200d-2642-fe0f,man climbing,climber
+1f9d7-200d-2640-fe0f,woman climbing,climber
+1f93a,person fencing,fencer,fencing,sword
+1f3c7,horse racing,horse,jockey,racehorse,racing
 26f7,skier,ski,snow
 1f3c2,snowboarder,ski,snow,snowboard
-1f3cc,ball,golf
-1f3cc-fe0f-200d-2642-fe0f,golf,man
-1f3cc-fe0f-200d-2640-fe0f,golf,woman
-1f3c4,surfing
-1f3c4-200d-2642-fe0f,man,surfing
-1f3c4-200d-2640-fe0f,surfing,woman
-1f6a3,boat,rowboat
-1f6a3-200d-2642-fe0f,boat,man,rowboat
-1f6a3-200d-2640-fe0f,boat,rowboat,woman
-1f3ca,swim
-1f3ca-200d-2642-fe0f,man,swim
-1f3ca-200d-2640-fe0f,swim,woman
+1f3cc,person golfing,ball,golf
+1f3cc-fe0f-200d-2642-fe0f,man golfing,golf,man
+1f3cc-fe0f-200d-2640-fe0f,woman golfing,golf,woman
+1f3c4,person surfing,surfing
+1f3c4-200d-2642-fe0f,man surfing,man,surfing
+1f3c4-200d-2640-fe0f,woman surfing,surfing,woman
+1f6a3,person rowing boat,boat,rowboat
+1f6a3-200d-2642-fe0f,man rowing boat,boat,man,rowboat
+1f6a3-200d-2640-fe0f,woman rowing boat,boat,rowboat,woman
+1f3ca,person swimming,swim
+1f3ca-200d-2642-fe0f,man swimming,man,swim
+1f3ca-200d-2640-fe0f,woman swimming,swim,woman
 26f9,ball
-26f9-fe0f-200d-2642-fe0f,ball,man
+26f9-fe0f-200d-2642-fe0f,man bouncing ball,ball,man
 26f9-fe0f-200d-2640-fe0f,ball,woman
 1f3cb,lifter,weight
-1f3cb-fe0f-200d-2642-fe0f,man
-1f3cb-fe0f-200d-2640-fe0f,woman
-1f6b4,bicycle,biking,cyclist
-1f6b4-200d-2642-fe0f,bicycle,biking,cyclist,man
-1f6b4-200d-2640-fe0f,bicycle,biking,cyclist,woman
+1f3cb-fe0f-200d-2642-fe0f,man,weight lifter
+1f3cb-fe0f-200d-2640-fe0f,weight lifter,woman
+1f6b4,person biking,bicycle,biking,cyclist
+1f6b4-200d-2642-fe0f,man biking,bicycle,biking,cyclist,man
+1f6b4-200d-2640-fe0f,woman biking,bicycle,biking,cyclist,woman
 1f6b5,bicycle,bicyclist,bike,cyclist,mountain
 1f6b5-200d-2642-fe0f,bicycle,bike,cyclist,man,mountain
 1f6b5-200d-2640-fe0f,bicycle,bike,biking,cyclist,mountain,woman
 1f938,cartwheel,gymnastics
-1f938-200d-2642-fe0f,cartwheel,gymnastics,man
+1f938-200d-2642-fe0f,man cartwheeling,cartwheel,gymnastics,man
 1f938-200d-2640-fe0f,cartwheel,gymnastics,woman
-1f93c,wrestle,wrestler
-1f93c-200d-2642-fe0f,men,wrestle
-1f93c-200d-2640-fe0f,women,wrestle
+1f93c,people wrestling,wrestle,wrestler
+1f93c-200d-2642-fe0f,men wrestling,men,wrestle
+1f93c-200d-2640-fe0f,women wrestling,women,wrestle
 1f93d,polo,water
-1f93d-200d-2642-fe0f,man
-1f93d-200d-2640-fe0f,woman
+1f93d-200d-2642-fe0f,man,water polo
+1f93d-200d-2640-fe0f,water polo,woman
 1f93e,ball,handball
 1f93e-200d-2642-fe0f,handball,man
 1f93e-200d-2640-fe0f,handball,woman
-1f939,balance,juggle,multitask,skill
-1f939-200d-2642-fe0f,juggling,man,multitask
-1f939-200d-2640-fe0f,juggling,multitask,woman
+1f939,person juggling,balance,juggle,multitask,skill
+1f939-200d-2642-fe0f,man juggling,juggling,man,multitask
+1f939-200d-2640-fe0f,woman juggling,juggling,multitask,woman
 1f9d8,meditation,yoga,serenity
 1f9d8-200d-2642-fe0f,meditation,yoga
 1f9d8-200d-2640-fe0f,meditation,yoga
-1f6c0,bath,bathtub
-1f6cc,hotel,sleep
-1f9d1-200d-1f91d-200d-1f9d1,couple,hand,hold,person
-1f46d,couple,hand,women
-1f46b,couple,hand,hold,man,woman
-1f46c,couple,gemini,man,men,twins,zodiac
+1f6c0,person taking bath,bath,bathtub
+1f6cc,person in bed,hotel,sleep
+1f9d1-200d-1f91d-200d-1f9d1,couple,hand,hold,holding hands,person
+1f46d,couple,hand,holding hands,women
+1f46b,couple,hand,hold,holding hands,man,woman
+1f46c,men holding hands,couple,gemini,holding hands,man,men,twins,zodiac
 1f48f,kiss,couple
 1f469-200d-2764-fe0f-200d-1f48b-200d-1f468,couple,kiss,man,woman
 1f468-200d-2764-fe0f-200d-1f48b-200d-1f468,couple,kiss,man
 1f469-200d-2764-fe0f-200d-1f48b-200d-1f469,couple,kiss,woman
-1f491,couple,love
-1f469-200d-2764-fe0f-200d-1f468,couple,love,man,woman
-1f468-200d-2764-fe0f-200d-1f468,couple,love,man
-1f469-200d-2764-fe0f-200d-1f469,couple,love,woman
+1f491,couple with heart,couple,love
+1f469-200d-2764-fe0f-200d-1f468,couple,couple with heart,love,man,woman
+1f468-200d-2764-fe0f-200d-1f468,couple,couple with heart,love,man
+1f469-200d-2764-fe0f-200d-1f469,couple,couple with heart,love,woman
 1f46a,family
 1f468-200d-1f469-200d-1f466,boy,family,man,woman
 1f468-200d-1f469-200d-1f467,family,girl,man,woman
@@ -496,48 +498,48 @@
 1f469-200d-1f467,family,girl,woman
 1f469-200d-1f467-200d-1f466,boy,family,girl,woman
 1f469-200d-1f467-200d-1f467,family,girl,woman
-1f5e3,face,head,silhouette,speak,speaking
-1f464,bust,silhouette
+1f5e3,speaking head,face,head,silhouette,speak,speaking
+1f464,bust in silhouette,bust,silhouette
 1f465,bust,silhouette
-1fac2,goodbye,hello,hug,thanks
+1fac2,people hugging,goodbye,hello,hug,thanks
 1f463,footprints,clothing,footprint,print
-1f9b0,ginger,redhead
-1f9b1,afro,curly,ringlets
-1f9b3,gray,hair,old,white
-1f9b2,bald,chemotherapy,hairless,shaven
-1f435,face,monkey
+1f9b0,red hair,ginger,redhead
+1f9b1,curly hair,afro,curly,ringlets
+1f9b3,white hair,gray,hair,old,white
+1f9b2,bald,chemotherapy,hairless,no hair,shaven
+1f435,monkey face,face,monkey
 1f412,monkey
 1f98d,gorilla
 1f9a7,orangutan,ape
-1f436,dog,face,pet
+1f436,dog face,dog,face,pet
 1f415,dog,pet
-1f9ae,accessibility,blind,guide
-1f415-200d-1f9ba,accessibility,assistance,dog,service
+1f9ae,guide dog,accessibility,blind,guide
+1f415-200d-1f9ba,service dog,accessibility,assistance,dog,service
 1f429,poodle,dog
 1f43a,wolf,face
 1f98a,fox,face
 1f99d,raccoon,curious,sly
-1f431,cat,face,pet
+1f431,cat face,cat,face,pet
 1f408,cat,pet
-1f408-200d-2b1b,black,cat,unlucky
+1f408-200d-2b1b,black cat,black,cat,unlucky
 1f981,lion,face,leo,zodiac
-1f42f,face,tiger
+1f42f,tiger face,face,tiger
 1f405,tiger
 1f406,leopard
-1f434,face,horse
+1f434,horse face,face,horse
 1f40e,horse,equestrian,racehorse,racing
 1f984,unicorn,face
 1f993,zebra,stripe
 1f98c,deer
 1f9ac,bison,buffalo,herd,wisent
-1f42e,cow,face
+1f42e,cow face,cow,face
 1f402,bull,taurus,zodiac
-1f403,buffalo,water
+1f403,water buffalo,buffalo,water
 1f404,cow
-1f437,face,pig
+1f437,pig face,face,pig
 1f416,pig,sow
 1f417,boar,pig
-1f43d,face,nose,pig
+1f43d,pig nose,face,nose,pig
 1f40f,ram,aries,male,sheep,zodiac
 1f411,ewe,female,sheep
 1f410,goat,capricorn,zodiac
@@ -549,38 +551,38 @@
 1f9a3,mammoth,extinction,large,tusk,woolly
 1f98f,rhinoceros
 1f99b,hippopotamus,hippo
-1f42d,face,mouse
+1f42d,mouse face,face,mouse
 1f401,mouse
 1f400,rat
 1f439,hamster,face,pet
-1f430,bunny,face,pet,rabbit
+1f430,rabbit face,bunny,face,pet,rabbit
 1f407,rabbit,bunny,pet
 1f43f,chipmunk,squirrel
 1f9ab,beaver,dam
 1f994,hedgehog,spiny
 1f987,bat,vampire
 1f43b,bear,face
-1f43b-200d-2744-fe0f,arctic,bear,white
+1f43b-200d-2744-fe0f,polar bear,arctic,bear,white
 1f428,koala,bear
 1f43c,panda,face
 1f9a5,sloth,lazy,slow
 1f9a6,otter,fishing,playful
 1f9a8,skunk,stink
 1f998,kangaroo,australia,joey,jump,marsupial
-1f9a1,badger,pester
-1f43e,feet,paw,print
+1f9a1,badger,honey badger,pester
+1f43e,paw prints,feet,paw,print
 1f983,turkey,bird
 1f414,chicken,bird
 1f413,rooster,bird
-1f423,baby,bird,chick,hatching
-1f424,baby,bird,chick
+1f423,hatching chick,baby,bird,chick,hatching
+1f424,baby chick,baby,bird,chick
 1f425,baby,bird,chick
 1f426,bird
 1f427,penguin,bird
 1f54a,dove,bird,fly,peace
 1f985,eagle,bird
 1f986,duck,bird
-1f9a2,swan,bird,cygnet
+1f9a2,swan,bird,cygnet,ugly duckling
 1f989,owl,bird,wise
 1f9a4,dodo,extinction,large,mauritius
 1fab6,feather,bird,flight,light,plumage
@@ -592,57 +594,58 @@
 1f422,turtle,terrapin,tortoise
 1f98e,lizard,reptile
 1f40d,snake,bearer,ophiuchus,serpent,zodiac
-1f432,dragon,face
-1f409,dragon
+1f432,dragon face,dragon,face,fairy tale
+1f409,dragon,fairy tale
 1f995,sauropod,brachiosaurus,brontosaurus,diplodocus
-1f433,face,spouting,whale
+1f996,tyrannosaurus rex
+1f433,spouting whale,face,spouting,whale
 1f40b,whale
 1f42c,dolphin,flipper
-1f9ad,seal
+1f9ad,seal,sea lion
 1f41f,fish,pisces,zodiac
-1f420,fish,tropical
+1f420,tropical fish,fish,tropical
 1f421,blowfish,fish
 1f988,shark,fish
 1f419,octopus
-1f41a,shell,spiral
+1f41a,spiral shell,shell,spiral
 1f40c,snail
 1f98b,butterfly,insect,pretty
 1f41b,bug,insect
 1f41c,ant,insect
 1f41d,honeybee,bee,insect
 1fab2,beetle,bug,insect
-1f41e,beetle,insect,ladybird,ladybug
+1f41e,lady beetle,beetle,insect,ladybird,ladybug
 1f997,cricket,grasshopper,orthoptera
 1fab3,cockroach,insect,pest,roach
 1f577,spider,insect
-1f578,spider,web
+1f578,spider web,spider,web
 1f982,scorpion,scorpio,scorpio,zodiac
 1f99f,mosquito,disease,fever,malaria,pest,virus
 1fab0,fly,disease,maggot,pest,rotting
 1fab1,worm,annelid,earthworm,parasite
 1f9a0,microbe,amoeba,bacteria,virus
 1f490,bouquet,flower
-1f338,blossom,cherry,flower
-1f4ae,flower
+1f338,cherry blossom,blossom,cherry,flower
+1f4ae,white flower,flower
 1f3f5,rosette,plant
 1f339,rose,flower
-1f940,flower,wilted
+1f940,wilted flower,flower,wilted
 1f33a,hibiscus,flower
 1f33b,sunflower,flower,sun
 1f33c,blossom,flower
 1f337,tulip,flower
 1f331,seedling,young
-1fab4,boring,grow,house,nurturing,plant,useless
-1f332,tree
-1f333,deciduous,shedding,tree
-1f334,palm,tree
+1fab4,potted plant,boring,grow,house,nurturing,plant,useless
+1f332,evergreen tree,tree
+1f333,deciduous tree,deciduous,shedding,tree
+1f334,palm tree,palm,tree
 1f335,cactus,plant
-1f33e,ear,grain,rice
+1f33e,sheaf of rice,ear,grain,rice
 1f33f,herb,leaf
 2618,shamrock,plant
-1f340,clover,four,leaf
-1f341,falling,leaf,maple
-1f342,falling,leaf
+1f340,four leaf clover,clover,four,leaf
+1f341,maple leaf,falling,leaf,maple
+1f342,fallen leaf,falling,leaf
 1f343,blow,flutter,leaf,wind
 1f347,grapes,fruit,grape
 1f348,melon,fruit
@@ -652,14 +655,14 @@
 1f34c,banana,fruit
 1f34d,pineapple,fruit
 1f96d,mango,fruit,tropical
-1f34e,apple,fruit,red
-1f34f,apple,fruit,green
+1f34e,red apple,apple,fruit,red
+1f34f,green apple,apple,fruit,green
 1f350,pear,fruit
 1f351,peach,fruit
 1f352,cherries,berries,cherry,fruit,red
 1f353,strawberry,berry,fruit
 1fad0,blueberries,berry,bilberry,blue,blueberry
-1f95d,food,fruit,kiwi
+1f95d,kiwi fruit,food,fruit,kiwi
 1f345,tomato,fruit,vegetable
 1fad2,olive,food
 1f965,coconut,palm
@@ -667,12 +670,12 @@
 1f346,eggplant,aubergine,vegetable
 1f954,potato,food,vegetable
 1f955,carrot,food,vegetable
-1f33d,corn,ear,maize,maze
-1f336,hot,pepper
-1fad1,capsicum,pepper,vegetable
+1f33d,ear of corn,corn,ear,maize,maze
+1f336,hot pepper,hot,pepper
+1fad1,bell pepper,capsicum,pepper,vegetable
 1f952,cucumber,food,pickle,vegetable
-1f96c,cabbage,kale,lettuce
-1f966,broccoli
+1f96c,leafy green,bok choy,cabbage,kale,lettuce
+1f966,broccoli,wild cabbage
 1f9c4,garlic,flavoring
 1f9c5,onion,flavoring
 1f344,mushroom,toadstool
@@ -680,114 +683,115 @@
 1f330,chestnut,plant
 1f35e,bread,loaf
 1f950,croissant,bread,breakfast,food,french,roll
-1f956,baguette,bread,food,french
+1f956,baguette bread,baguette,bread,food,french
 1fad3,flatbread,arepa,lavash,naan,pita
 1f968,pretzel,twisted,convoluted
 1f96f,bagel,bakery,breakfast,schmear
 1f95e,pancakes,breakfast,food,hotcake,pancake
 1f9c7,waffle,breakfast,indecisive,iron
-1f9c0,cheese
-1f356,bone,meat
-1f357,bone,chicken,drumstick,leg,poultry
-1f969,chop,lambchop,porkchop,steak
+1f9c0,cheese wedge,cheese
+1f356,meat on bone,bone,meat
+1f357,poultry leg,bone,chicken,drumstick,leg,poultry
+1f969,cut of meat,chop,lambchop,porkchop,steak
 1f953,bacon,breakfast,food,meat
 1f354,hamburger,burger
-1f35f,french,fries
+1f35f,french fries,french,fries
 1f355,pizza,cheese,slice
-1f32d,frankfurter,hotdog,sausage
+1f32d,hot dog,frankfurter,hotdog,sausage
 1f96a,sandwich,bread
 1f32e,taco,mexican
 1f32f,burrito,mexican,wrap
 1fad4,tamale,mexican,wrapped
-1f959,falafel,flatbread,food,gyro,kebab,stuffed
+1f959,stuffed flatbread,falafel,flatbread,food,gyro,kebab,stuffed
 1f9c6,falafel,chickpea,meatball
 1f95a,egg,breakfast,food
 1f373,cooking,breakfast,egg,frying,pan
-1f958,casserole,food,paella,pan,shallow
-1f372,pot,stew
+1f958,shallow pan of food,casserole,food,paella,pan,shallow
+1f372,pot of food,pot,stew
 1fad5,fondue,cheese,chocolate,melted,pot,swiss
-1f963,breakfast,cereal,congee,oatmeal,porridge
-1f957,food,green,salad
+1f963,bowl with spoon,breakfast,cereal,congee,oatmeal,porridge
+1f957,green salad,food,green,salad
 1f37f,popcorn
 1f9c8,butter,dairy
 1f9c2,salt,condiment,shaker
-1f96b,can
-1f371,bento,box
-1f358,cracker,rice
-1f359,ball,japanese,rice
-1f35a,cooked,rice
-1f35b,curry,rice
-1f35c,bowl,noodle,ramen,steaming
+1f96b,canned food,can
+1f371,bento box,bento,box
+1f358,rice cracker,cracker,rice
+1f359,rice ball,ball,japanese,rice
+1f35a,cooked rice,cooked,rice
+1f35b,curry rice,curry,rice
+1f35c,steaming bowl,bowl,noodle,ramen,steaming
 1f35d,spaghetti,pasta
 1f360,potato,roasted,sweet
 1f362,oden,kebab,seafood,skewer,stick
 1f363,sushi
-1f364,fried,prawn,shrimp,tempura
+1f364,fried shrimp,fried,prawn,shrimp,tempura
 1f365,cake,fish,pastry,swirl
-1f96e,autumn,festival
+1f96e,moon cake,autumn,festival
 1f361,dango,dessert,japanese,skewer,stick,sweet
 1f95f,dumpling,empanada,jiaozi,pierogi,potsticker
-1f960,prophecy
+1f960,fortune cookie,prophecy
+1f961,takeout box,oyster pail
 1f980,crab,cancer,zodiac
 1f99e,lobster,bisque,claws,seafood
 1f990,shrimp,food,shellfish,small
 1f991,squid,food,molusc
 1f9aa,oyster,diving,pearl
-1f366,cream,dessert,ice,icecream,soft,sweet
-1f367,dessert,ice,shaved,sweet
-1f368,cream,dessert,ice,sweet
+1f366,soft ice cream,cream,dessert,ice,icecream,soft,sweet
+1f367,shaved ice,dessert,ice,shaved,sweet
+1f368,ice cream,cream,dessert,ice,sweet
 1f369,doughnut,breakfast,dessert,donut,sweet
 1f36a,cookie,dessert,sweet
-1f382,birthday,cake,celebration,dessert,pastry,sweet
+1f382,birthday cake,birthday,cake,celebration,dessert,pastry,sweet
 1f370,shortcake,cake,dessert,pastry,slice,sweet
 1f9c1,cupcake,bakery,sweet
 1f967,pie,filling,pastry,fruit,meat
-1f36b,bar,chocolate,dessert,sweet
+1f36b,chocolate bar,bar,chocolate,dessert,sweet
 1f36c,candy,dessert,sweet
 1f36d,lollipop,candy,dessert,sweet
 1f36e,custard,dessert,pudding,sweet
-1f36f,honey,honeypot,pot,sweet
-1f37c,baby,bottle,drink,milk
-1f95b,drink,glass,milk
-2615,beverage,coffee,drink,hot,steaming,tea
+1f36f,honey pot,honey,honeypot,pot,sweet
+1f37c,baby bottle,baby,bottle,drink,milk
+1f95b,glass of milk,drink,glass,milk
+2615,hot beverage,beverage,coffee,drink,hot,steaming,tea
 1fad6,teapot,drink,pot,tea
 1f375,beverage,cup,drink,tea,teacup
 1f376,sake,bar,beverage,bottle,cup,drink
 1f37e,bar,bottle,cork,drink,popping
-1f377,bar,beverage,drink,glass,wine
-1f378,bar,cocktail,drink,glass
-1f379,bar,drink,tropical
-1f37a,bar,beer,drink,mug
-1f37b,bar,beer,clink,drink,mug
-1f942,celebrate,clink,drink,glass
-1f943,glass,liquor,shot,tumbler,whisky
-1f964,juice,soda,malt,water
-1f9cb,bubble,milk,pearl,tea
-1f9c3,beverage,box,juice,straw,sweet
+1f377,wine glass,bar,beverage,drink,glass,wine
+1f378,cocktail glass,bar,cocktail,drink,glass
+1f379,tropical drink,bar,drink,tropical
+1f37a,beer mug,bar,beer,drink,mug
+1f37b,clinking beer mugs,bar,beer,clink,drink,mug
+1f942,clinking glasses,celebrate,clink,drink,glass
+1f943,tumbler glass,glass,liquor,shot,tumbler,whisky
+1f964,cup with straw,juice,soda,malt,soft drink,water
+1f9cb,bubble tea,bubble,milk,pearl,tea
+1f9c3,beverage box,beverage,box,juice,straw,sweet
 1f9c9,mate,drink
-1f9ca,ice,cold,iceberg
+1f9ca,ice,cold,ice cube,iceberg
 1f962,chopsticks,hashi,jeotgarak,kuaizi
 1f37d,cooking,fork,knife,plate
-1f374,cooking,cutlery,fork,knife
+1f374,fork and knife,cooking,cutlery,fork,knife
 1f944,spoon,tableware
-1f52a,cooking,hocho,knife,tool,weapon
+1f52a,kitchen knife,cooking,hocho,knife,tool,weapon
 1f3fa,amphora,aquarius,cooking,drink,jug,zodiac
 1f30d,africa,earth,europe,globe,world
 1f30e,americas,earth,globe,world
 1f30f,asia,australia,earth,globe,world
 1f310,earth,globe,meridians,world
-1f5fa,map,world
-1f5fe,japan,map
+1f5fa,world map,map,world
+1f5fe,map of japan,japan,map
 1f9ed,compass,magnetic,navigation,orienteering
 1f3d4,cold,mountain,snow
 26f0,mountain
 1f30b,volcano,eruption,mountain
-1f5fb,fuji,mountain
+1f5fb,mount fuji,fuji,mountain
 1f3d5,camping
 1f3d6,beach,umbrella
 1f3dc,desert
-1f3dd,desert,island
-1f3de,park
+1f3dd,desert island,desert,island
+1f3de,national park,park
 1f3df,stadium
 1f3db,classical
 1f3d7,construction
@@ -796,125 +800,126 @@
 1fab5,wood,log,lumber,timber
 1f6d6,hut,house,roundhouse,yurt
 1f3d8,houses
-1f3da,derelict,house
+1f3da,derelict house,derelict,house
 1f3e0,house,home
-1f3e1,garden,home,house
-1f3e2,building
+1f3e1,house with garden,garden,home,house
+1f3e2,office building,building
 1f3e3,japanese,post
-1f3e4,european,post
+1f3e4,post office,european,post
 1f3e5,hospital,doctor,medicine
 1f3e6,bank,building
 1f3e8,hotel,building
-1f3e9,hotel,love
-1f3ea,convenience,store
+1f3e9,love hotel,hotel,love
+1f3ea,convenience store,convenience,store
 1f3eb,school,building
-1f3ec,department,store
+1f3ec,department store,department,store
 1f3ed,factory,building
-1f3ef,castle,japanese
+1f3ef,japanese castle,castle,japanese
 1f3f0,castle,european
 1f492,wedding,chapel,romance
-1f5fc,tokyo,tower
-1f5fd,liberty,statue
+1f5fc,tokyo tower,tokyo,tower
+1f5fd,statue of liberty,liberty,statue
 26ea,church,christian,cross,religion
 1f54c,mosque,islam,muslim,religion
-1f6d5,hindu,temple
+1f6d5,hindu temple,hindu,temple
 1f54d,synagogue,jew,jewish,religion,temple
-26e9,religion,shinto,shrine
+26e9,shinto shrine,religion,shinto,shrine
 1f54b,kaaba,islam,muslim,religion
 26f2,fountain
 26fa,tent,camping
 1f301,foggy,fog
-1f303,night,star
+1f303,night with stars,night,star
 1f3d9,cityscape,city
 1f304,morning,mountain,sun,sunrise
 1f305,sunrise,morning,sun
-1f306,city,dusk,evening,landscape,sunset
+1f306,cityscape at dusk,city,dusk,evening,landscape,sunset
 1f307,sunset,dusk,sun
-1f309,bridge,night
-2668,hot,hotsprings,springs,steaming
-1f3a0,carousel,horse
-1f3a1,ferris,wheel
-1f3a2,coaster,roller
-1f488,barber,haircut,pole
-1f3aa,circus,tent
+1f309,bridge at night,bridge,night
+2668,hot springs,hot,hotsprings,springs,steaming
+1f3a0,carousel horse,carousel,horse
+1f3a1,ferris wheel,amusement park,ferris,wheel
+1f3a2,roller coaster,amusement park,coaster,roller
+1f488,barber pole,barber,haircut,pole
+1f3aa,circus tent,circus,tent
 1f682,locomotive,engine,railway,steam,train
-1f683,car,electric,railway,train,tram,trolleybus
+1f683,railway car,car,electric,railway,train,tram,trolleybus
 1f684,railway,shinkansen,speed,train
-1f685,bullet,railway,shinkansen,speed,train
+1f685,bullet train,bullet,railway,shinkansen,speed,train
 1f686,train,railway
 1f687,metro,subway
-1f688,railway
+1f688,light rail,railway
 1f689,station,railway,train
 1f68a,tram,trolleybus
 1f69d,monorail,vehicle
-1f69e,car,mountain,railway
-1f68b,car,tram,trolleybus
+1f69e,mountain railway,car,mountain,railway
+1f68b,tram car,car,tram,trolleybus
 1f68c,bus,vehicle
-1f68d,bus,oncoming
+1f68d,oncoming bus,bus,oncoming
 1f68e,trolleybus,bus,tram,trolley
 1f690,minibus,bus
 1f691,ambulance,vehicle
-1f692,engine,fire,truck
-1f693,car,patrol,police
+1f692,fire engine,engine,fire,truck
+1f693,police car,car,patrol,police
 1f694,car,oncoming,police
 1f695,taxi,vehicle
-1f696,oncoming,taxi
+1f696,oncoming taxi,oncoming,taxi
 1f697,automobile,car
 1f698,automobile,car,oncoming
-1f699,recreational
-1f6fb,pickup,truck
-1f69a,delivery,truck
-1f69b,lorry,semi,truck
+1f699,recreational,sport utility
+1f6fb,pickup truck,pickup,truck
+1f69a,delivery truck,delivery,truck
+1f69b,articulated lorry,lorry,semi,truck
 1f69c,tractor,vehicle
-1f3ce,car,racing
+1f3ce,racing car,car,racing
 1f3cd,motorcycle,racing
-1f6f5,motor,scooter
-1f9bd,accessibility
+1f6f5,motor scooter,motor,scooter
+1f9bd,manual wheelchair,accessibility
 1f9bc,accessibility
+1f6fa,auto rickshaw,tuk tuk
 1f6b2,bicycle,bike
-1f6f4,kick,scooter
+1f6f4,kick scooter,kick,scooter
 1f6f9,skateboard,board
-1f6fc,roller,skate
-1f68f,bus,busstop,stop
+1f6fc,roller skate,roller,skate
+1f68f,bus stop,bus,busstop,stop
 1f6e3,motorway,highway,road
-1f6e4,railway,train
-1f6e2,drum,oil
-26fd,diesel,fuel,fuelpump,gas,pump,station
-1f6a8,beacon,car,light,police,revolving
+1f6e4,railway track,railway,train
+1f6e2,oil drum,drum,oil
+26fd,fuel pump,diesel,fuel,fuelpump,gas,pump,station
+1f6a8,police car light,beacon,car,light,police,revolving
 1f6a5,light,signal,traffic
 1f6a6,light,signal,traffic
-1f6d1,octagonal,sign,stop
+1f6d1,stop sign,octagonal,sign,stop
 1f6a7,construction,barrier
 2693,anchor,ship,tool
 26f5,sailboat,boat,resort,sea,yacht
 1f6f6,canoe,boat
 1f6a4,speedboat,boat
-1f6f3,passenger,ship
+1f6f3,passenger ship,passenger,ship
 26f4,ferry,boat,passenger
-1f6e5,boat,motorboat
+1f6e5,motor boat,boat,motorboat
 1f6a2,ship,boat,passenger
 2708,airplane,aeroplane
-1f6e9,aeroplane,airplane
+1f6e9,small airplane,aeroplane,airplane
 1f6eb,aeroplane,airplane,departure,departures
-1f6ec,aeroplane,airplane,arrivals,arriving,landing
+1f6ec,airplane arrival,aeroplane,airplane,arrivals,arriving,landing
 1fa82,parachute,parasail,skydive
 1f4ba,seat,chair
 1f681,helicopter,vehicle
 1f69f,railway,suspension
-1f6a0,cable,gondola,mountain
-1f6a1,aerial,cable,car,gondola,tramway
+1f6a0,mountain cableway,cable,gondola,mountain
+1f6a1,aerial tramway,aerial,cable,car,gondola,tramway
 1f6f0,satellite,space
 1f680,rocket,space
-1f6f8,ufo
-1f6ce,bell,bellhop,hotel
+1f6f8,flying saucer,ufo
+1f6ce,bellhop bell,bell,bellhop,hotel
 1f9f3,luggage,packing,travel
-231b,sand,timer
-23f3,hourglass,sand,timer
+231b,hourglass done,sand,timer
+23f3,hourglass not done,hourglass,sand,timer
 231a,watch,clock
-23f0,alarm,clock
+23f0,alarm clock,alarm,clock
 23f1,stopwatch,clock
-23f2,clock,timer
-1f570,clock
+23f2,timer clock,clock,timer
+1f570,mantelpiece clock,clock
 1f55b,clock,twelve
 1f567,clock,thirty,twelve
 1f550,clock,one
@@ -939,142 +944,142 @@
 1f565,clock,ten,thirty
 1f55a,clock,eleven
 1f566,clock,eleven,thirty
-1f311,dark,moon
+1f311,new moon,dark,moon
 1f312,crescent,moon,waxing
-1f313,moon,quarter
+1f313,first quarter moon,moon,quarter
 1f314,gibbous,moon,waxing
-1f315,full,moon
+1f315,full moon,full,moon
 1f316,gibbous,moon,waning
-1f317,moon,quarter
+1f317,last quarter moon,moon,quarter
 1f318,crescent,moon,waning
-1f319,crescent,moon
-1f31a,face,moon
+1f319,crescent moon,crescent,moon
+1f31a,new moon face,face,moon
 1f31b,face,moon,quarter
 1f31c,face,moon,quarter
 1f321,thermometer,weather
 2600,sun,bright,rays,sunny
-1f31d,bright,face,full,moon
-1f31e,bright,face,sun
-1fa90,saturn,saturnine
+1f31d,full moon face,bright,face,full,moon
+1f31e,sun with face,bright,face,sun
+1fa90,ringed planet,saturn,saturnine
 2b50,star
-1f31f,glittery,glow,shining,sparkle,star
-1f320,falling,shooting,star
-1f30c,space
+1f31f,glowing star,glittery,glow,shining,sparkle,star
+1f320,shooting star,falling,shooting,star
+1f30c,milky way,space
 2601,cloud,weather
-26c5,cloud,sun
+26c5,sun behind cloud,cloud,sun
 26c8,cloud,rain,thunder
 1f324,cloud,sun
 1f325,cloud,sun
 1f326,cloud,rain,sun
-1f327,cloud,rain
-1f328,cloud,cold,snow
+1f327,cloud with rain,cloud,rain
+1f328,cloud with snow,cloud,cold,snow
 1f329,cloud,lightning
 1f32a,tornado,cloud,whirlwind
 1f32b,fog,cloud
-1f32c,blow,cloud,face,wind
+1f32c,wind face,blow,cloud,face,wind
 1f300,cyclone,dizzy,hurricane,twister,typhoon
 1f308,rainbow,rain
-1f302,clothing,rain,umbrella
+1f302,closed umbrella,clothing,rain,umbrella
 2602,umbrella,clothing,rain
 2614,clothing,drop,rain,umbrella
-26f1,rain,sun,umbrella
-26a1,danger,electric,lightning,voltage,zap
+26f1,umbrella on ground,rain,sun,umbrella
+26a1,high voltage,danger,electric,lightning,voltage,zap
 2744,snowflake,cold,snow
 2603,snowman,cold,snow
 26c4,cold,snow,snowman
 2604,comet,space
 1f525,fire,flame,tool
 1f4a7,droplet,cold,comic,drop,sweat
-1f30a,ocean,water,wave
+1f30a,water wave,ocean,water,wave
 1f383,celebration,halloween,jack,lantern
-1f384,celebration,christmas,tree
+1f384,christmas tree,celebration,christmas,tree
 1f386,fireworks,celebration
 1f387,sparkler,celebration,fireworks,sparkle
 1f9e8,firecracker,dynamite,explosive,fireworks
 2728,sparkles,sparkle,star
 1f388,balloon,celebration
-1f389,celebration,party,popper,tada
-1f38a,ball,celebration,confetti
-1f38b,banner,celebration,japanese,tree
-1f38d,bamboo,celebration,japanese,pine
-1f38e,celebration,doll,festival,japanese
-1f38f,carp,celebration,streamer
-1f390,bell,celebration,chime,wind
+1f389,party popper,celebration,party,popper,tada
+1f38a,confetti ball,ball,celebration,confetti
+1f38b,tanabata tree,banner,celebration,japanese,tree
+1f38d,pine decoration,bamboo,celebration,japanese,pine
+1f38e,japanese dolls,celebration,doll,festival,japanese
+1f38f,carp streamer,carp,celebration,streamer
+1f390,wind chime,bell,celebration,chime,wind
 1f391,celebration,ceremony,moon
-1f9e7,gift,money
+1f9e7,red envelope,gift,good luck,lai see,money
 1f380,ribbon,celebration
-1f381,box,celebration,gift,present,wrapped
-1f397,celebration,reminder,ribbon
-1f39f,admission,ticket
+1f381,wrapped gift,box,celebration,gift,present,wrapped
+1f397,reminder ribbon,celebration,reminder,ribbon
+1f39f,admission tickets,admission,ticket
 1f3ab,ticket,admission
-1f396,celebration,medal,military
+1f396,military medal,celebration,medal,military
 1f3c6,trophy,prize
-1f3c5,medal
-1f947,first,gold,medal
-1f948,medal,second,silver
-1f949,bronze,medal,third
-26bd,ball,football,soccer
+1f3c5,sports medal,medal
+1f947,1st place medal,first,gold,medal
+1f948,2nd place medal,medal,second,silver
+1f949,3rd place medal,bronze,medal,third
+26bd,soccer ball,ball,football,soccer
 26be,baseball,ball
 1f94e,softball,ball,glove,underarm
 1f3c0,basketball,ball,hoop
 1f3d0,volleyball,ball,game
-1f3c8,american,ball,football
-1f3c9,ball,football,rugby
+1f3c8,american football,american,ball,football
+1f3c9,rugby football,ball,football,rugby
 1f3be,tennis,ball,racquet
-1f94f,ultimate
+1f94f,flying disc,ultimate
 1f3b3,bowling,ball,game
-1f3cf,ball,bat,game
-1f3d1,ball,field,game,hockey,stick
-1f3d2,game,hockey,ice,puck,stick
+1f3cf,cricket game,ball,bat,game
+1f3d1,field hockey,ball,field,game,hockey,stick
+1f3d2,ice hockey,game,hockey,ice,puck,stick
 1f94d,lacrosse,ball,goal,stick
-1f3d3,ball,bat,game,paddle
+1f3d3,ping pong,ball,bat,game,paddle,table tennis
 1f3f8,badminton,birdie,game,racquet,shuttlecock
-1f94a,boxing,glove
-1f94b,judo,karate,taekwondo,uniform
-1f945,goal,net
-26f3,golf,hole
-26f8,ice,skate
-1f3a3,fish,pole
-1f93f,diving,scuba,snorkeling
-1f3bd,athletics,running,sash,shirt
+1f94a,boxing glove,boxing,glove
+1f94b,judo,karate,martial arts,taekwondo,uniform
+1f945,goal net,goal,net
+26f3,flag in hole,golf,hole
+26f8,ice skate,ice,skate
+1f3a3,fishing pole,fish,pole
+1f93f,diving mask,diving,scuba,snorkeling
+1f3bd,running shirt,athletics,running,sash,shirt
 1f3bf,skis,ski,snow
 1f6f7,sled,sledge,sleigh,luge,toboggan
-1f94c,game,rock
-1f3af,bullseye,dart,game,hit,target
+1f94c,curling stone,game,rock
+1f3af,bullseye,dart,direct hit,game,hit,target
 1fa80,fluctuate,toy
 1fa81,kite,fly,soar
-1f3b1,ball,billiard,eight,game
-1f52e,ball,crystal,fantasy,fortune,tool
-1fa84,magic,witch,wizard
-1f9ff,bead,charm,nazar,talisman
-1f3ae,controller,game
-1f579,joystick,game
-1f3b0,game,slot
-1f3b2,dice,die,game
-1f9e9,clue,interlocking,jigsaw,piece,puzzle
-1f9f8,plaything,plush,stuffed,toy
+1f3b1,pool 8 ball,ball,billiard,eight,game
+1f52e,crystal ball,ball,crystal,fairy tale,fantasy,fortune,tool
+1fa84,magic wand,magic,witch,wizard
+1f9ff,nazar amulet,bead,charm,nazar,talisman
+1f3ae,video game,controller,game
+1f579,joystick,game,video game
+1f3b0,slot machine,game,slot
+1f3b2,game die,dice,die,game
+1f9e9,puzzle piece,clue,interlocking,jigsaw,piece,puzzle
+1f9f8,teddy bear,plaything,plush,stuffed,toy
 1fa85,celebration,party
-1fa86,doll,nesting,russia
-2660,card,game
-2665,card,game
-2666,card,game
-2663,card,game
-265f,chess,dupe,expendable
+1fa86,nesting dolls,doll,nesting,russia
+2660,spade suit,card,game
+2665,heart suit,card,game
+2666,diamond suit,card,game
+2663,club suit,card,game
+265f,chess pawn,chess,dupe,expendable
 1f0cf,joker,card,game,wildcard
-1f004,game,mahjong,red
+1f004,mahjong red dragon,game,mahjong,red
 1f3b4,card,flower,game,japanese,playing
-1f3ad,art,mask,performing,theater,theatre
-1f5bc,art,frame,museum,painting,picture
-1f3a8,art,museum,painting,palette
+1f3ad,performing arts,art,mask,performing,theater,theatre
+1f5bc,framed picture,art,frame,museum,painting,picture
+1f3a8,artist palette,art,museum,painting,palette
 1f9f5,thread,needle,sewing,spool,string
-1faa1,embroidery,needle,sewing,stitches,sutures,tailoring
+1faa1,sewing needle,embroidery,needle,sewing,stitches,sutures,tailoring
 1f9f6,yarn,ball,crochet,knit
 1faa2,knot,rope,tangled,tie,twine,twist
 1f453,glasses,clothing,eye,eyeglasses,eyewear
 1f576,sunglasses,dark,eye,eyewear,glasses
-1f97d,goggles,swimming,welding
-1f97c,doctor,experiment,scientist
-1f9ba,emergency,safety,vest
+1f97d,goggles,eye protection,swimming,welding
+1f97c,lab coat,doctor,experiment,scientist
+1f9ba,safety vest,emergency,safety,vest
 1f454,necktie,clothing,tie
 1f455,clothing,shirt,tshirt
 1f456,jeans,clothing,pants,trousers
@@ -1085,129 +1090,131 @@
 1f457,dress,clothing
 1f458,kimono,clothing
 1f97b,sari,clothing,dress
-1fa72,briefs,swimsuit,underwear
-1fa73,shorts,pants,underwear
+1fa71,bathing suit
+1fa72,briefs,bathing suit,swimsuit,underwear
+1fa73,shorts,bathing suit,pants,underwear
 1f459,bikini,clothing,swim
 1f45a,clothing,woman
 1f45b,purse,clothing,coin
 1f45c,handbag,bag,clothing,purse
-1f45d,bag,clothing,pouch
-1f6cd,bag,hotel,shopping
+1f45d,clutch bag,bag,clothing,pouch
+1f6cd,shopping bags,bag,hotel,shopping
 1f392,backpack,bag,rucksack,satchel,school
-1fa74,sandals,thongs
+1fa74,thong sandal,beach sandals,sandals,thong sandals,thongs
 1f45e,clothing,man,shoe
-1f45f,athletic,clothing,shoe,sneaker
-1f97e,backpacking,boot,camping,hiking
-1f97f,slipper
+1f45f,running shoe,athletic,clothing,shoe,sneaker
+1f97e,hiking boot,backpacking,boot,camping,hiking
+1f97f,flat shoe,ballet flat,slipper
 1f460,clothing,heel,shoe,woman
 1f461,clothing,sandal,shoe,woman
-1fa70,ballet,dance
+1fa70,ballet shoes,ballet,dance
 1f462,boot,clothing,shoe,woman
 1f451,crown,clothing,king,queen
 1f452,clothing,hat,woman
-1f3a9,clothing,hat,top,tophat
-1f393,cap,celebration,clothing,graduation,hat
-1fa96,army,helmet,military,soldier,warrior
+1f3a9,top hat,clothing,hat,top,tophat
+1f393,graduation cap,cap,celebration,clothing,graduation,hat
+1f9e2,billed cap,baseball cap
+1fa96,military helmet,army,helmet,military,soldier,warrior
 26d1,aid,cross,face,hat,helmet
-1f4ff,beads,clothing,necklace,prayer,religion
+1f4ff,prayer beads,beads,clothing,necklace,prayer,religion
 1f484,lipstick,cosmetics,makeup
 1f48d,ring,diamond
-1f48e,diamond,gem,jewel
-1f507,mute,quiet,silent,speaker
-1f508,soft
+1f48e,gem stone,diamond,gem,jewel
+1f507,muted speaker,mute,quiet,silent,speaker
+1f508,speaker low volume,soft
 1f509,medium
 1f50a,loud
-1f4e2,loudspeaker,loud
+1f4e2,loudspeaker,loud,public address
 1f4e3,megaphone,cheering
-1f4ef,horn,post,postal
+1f4ef,postal horn,horn,post,postal
 1f514,bell
-1f515,bell,forbidden,mute,quiet,silent
-1f3bc,music,score
-1f3b5,music,note
-1f3b6,music,note,notes
-1f399,mic,microphone,music,studio
-1f39a,level,music,slider
-1f39b,control,knobs,music
+1f515,bell with slash,bell,forbidden,mute,quiet,silent
+1f3bc,musical score,music,score
+1f3b5,musical note,music,note
+1f3b6,musical notes,music,note,notes
+1f399,studio microphone,mic,microphone,music,studio
+1f39a,level slider,level,music,slider
+1f39b,control knobs,control,knobs,music
 1f3a4,microphone,karaoke,mic
 1f3a7,headphone,earbud
 1f4fb,radio,video
 1f3b7,saxophone,instrument,music,sax
-1fa97,accordion,concertina
+1fa97,accordion,concertina,squeeze box
 1f3b8,guitar,instrument,music
-1f3b9,instrument,keyboard,music,piano
+1f3b9,musical keyboard,instrument,keyboard,music,piano
 1f3ba,trumpet,instrument,music
 1f3bb,violin,instrument,music
 1fa95,banjo,music,stringed
 1f941,drum,drumsticks,music
-1fa98,beat,conga,drum,rhythm
-1f4f1,cell,mobile,phone,telephone
+1fa98,long drum,beat,conga,drum,rhythm
+1f4f1,mobile phone,cell,mobile,phone,telephone
 1f4f2,arrow,cell,mobile,phone,receive
 260e,telephone,phone
 1f4de,phone,receiver,telephone
 1f4df,pager
-1f4e0,fax
+1f4e0,fax machine,fax
 1f50b,battery
-1f50c,electric,electricity,plug
+1f50c,electric plug,electric,electricity,plug
 1f4bb,laptop,computer,personal
-1f5a5,computer,desktop
+1f5a5,desktop computer,computer,desktop
 1f5a8,printer,computer
 2328,keyboard,computer
-1f5b1,computer
+1f5b1,computer mouse,computer
 1f5b2,trackball,computer
-1f4bd,computer,disk,minidisk,optical
-1f4be,computer,disk,floppy
-1f4bf,computer,disk,optical
+1f4bd,computer disk,computer,disk,minidisk,optical
+1f4be,floppy disk,computer,disk,floppy
+1f4bf,optical disk,computer,disk,optical
 1f4c0,dvd,computer,disk,optical
 1f9ee,abacus,calculation
-1f3a5,camera,cinema,movie
-1f39e,cinema,film,frames,movie
-1f4fd,cinema,film,movie,projector,video
-1f3ac,clapper,movie
+1f3a5,movie camera,camera,cinema,movie
+1f39e,film frames,cinema,film,frames,movie
+1f4fd,film projector,cinema,film,movie,projector,video
+1f3ac,clapper board,clapper,movie
 1f4fa,television,video
 1f4f7,camera,video
-1f4f8,camera,flash,video
-1f4f9,camera,video
+1f4f8,camera with flash,camera,flash,video
+1f4f9,video camera,camera,video
 1f4fc,videocassette,tape,vhs,video
 1f50d,glass,magnifying,search,tool
 1f50e,glass,magnifying,search,tool
 1f56f,candle,light
-1f4a1,bulb,comic,electric,idea,light
+1f4a1,light bulb,bulb,comic,electric,idea,light
 1f526,flashlight,electric,light,tool,torch
-1f3ee,bar,lantern,light,red
-1fa94,diya,lamp,oil
+1f3ee,red paper lantern,bar,lantern,light,red
+1fa94,diya lamp,diya,lamp,oil
 1f4d4,book,cover,decorated,notebook
-1f4d5,book,closed
-1f4d6,book,open
-1f4d7,book,green
-1f4d8,blue,book
-1f4d9,book,orange
+1f4d5,closed book,book,closed
+1f4d6,open book,book,open
+1f4d7,green book,book,green
+1f4d8,blue book,blue,book
+1f4d9,orange book,book,orange
 1f4da,books,book
 1f4d3,notebook
 1f4d2,ledger,notebook
-1f4c3,curl,document,page
+1f4c3,page with curl,curl,document,page
 1f4dc,scroll,paper
-1f4c4,document,page
+1f4c4,page facing up,document,page
 1f4f0,newspaper,news,paper
 1f5de,news,newspaper,paper,rolled
-1f4d1,bookmark,mark,marker,tabs
+1f4d1,bookmark tabs,bookmark,mark,marker,tabs
 1f516,bookmark,mark
 1f3f7,label
-1f4b0,bag,dollar,money,moneybag
+1f4b0,money bag,bag,dollar,money,moneybag
 1fa99,coin,gold,metal,money,silver,treasure
-1f4b4,banknote,bill,currency,money,note,yen
-1f4b5,banknote,bill,currency,dollar,money,note
-1f4b6,banknote,bill,currency,euro,money,note
-1f4b7,banknote,bill,currency,money,note,pound
-1f4b8,banknote,bill,fly,money,wings
-1f4b3,card,credit,money
+1f4b4,yen banknote,banknote,bill,currency,money,note,yen
+1f4b5,dollar banknote,banknote,bill,currency,dollar,money,note
+1f4b6,euro banknote,banknote,bill,currency,euro,money,note
+1f4b7,pound banknote,banknote,bill,currency,money,note,pound
+1f4b8,money with wings,banknote,bill,fly,money,wings
+1f4b3,credit card,card,credit,money
 1f9fe,receipt,accounting,bookkeeping,evidence,proof
 1f4b9,chart,graph,growth,money,yen
 2709,envelope,email,letter
 1f4e7,email,letter,mail
-1f4e8,email,envelope,incoming,letter,receive
+1f4e8,incoming envelope,email,envelope,incoming,letter,receive
 1f4e9,arrow,email,envelope,outgoing
-1f4e4,box,letter,mail,outbox,sent,tray
-1f4e5,box,inbox,letter,mail,receive,tray
+1f4e4,outbox tray,box,letter,mail,outbox,sent,tray
+1f4e5,inbox tray,box,inbox,letter,mail,receive,tray
 1f4e6,package,box,parcel
 1f4eb,closed,mail,mailbox,postbox
 1f4ea,closed,lowered,mail,mailbox,postbox
@@ -1216,140 +1223,141 @@
 1f4ee,postbox,mail,mailbox
 1f5f3,ballot,box
 270f,pencil
-2712,nib,pen
-1f58b,fountain,pen
+2712,black nib,nib,pen
+1f58b,fountain pen,fountain,pen
 1f58a,pen,ballpoint
 1f58c,paintbrush,painting
 1f58d,crayon
 1f4dd,memo,pencil
 1f4bc,briefcase
-1f4c1,file,folder
-1f4c2,file,folder,open
+1f4c1,file folder,file,folder
+1f4c2,open file folder,file,folder,open
 1f5c2,card,dividers,index
 1f4c5,calendar,date
 1f4c6,calendar
-1f5d2,note,pad,spiral
-1f5d3,calendar,pad,spiral
-1f4c7,card,index,rolodex
-1f4c8,chart,graph,growth,trend,upward
-1f4c9,chart,down,graph,trend
-1f4ca,bar,chart,graph
+1f5d2,spiral notepad,note,pad,spiral
+1f5d3,spiral calendar,calendar,pad,spiral
+1f4c7,card index,card,index,rolodex
+1f4c8,chart increasing,chart,graph,growth,trend,upward
+1f4c9,chart decreasing,chart,down,graph,trend
+1f4ca,bar chart,bar,chart,graph
 1f4cb,clipboard
 1f4cc,pushpin,pin
-1f4cd,pin,pushpin
+1f4cd,round pushpin,pin,pushpin
 1f4ce,paperclip
-1f587,link,paperclip
-1f4cf,ruler
-1f4d0,ruler,set,triangle
+1f587,linked paperclips,link,paperclip
+1f4cf,straight ruler,ruler,straight edge
+1f4d0,triangular ruler,ruler,set,triangle
 2702,scissors,cutting,tool
-1f5c3,box,card,file
-1f5c4,cabinet,file,filing
+1f5c3,card file box,box,card,file
+1f5c4,file cabinet,cabinet,file,filing
 1f5d1,wastebasket
 1f512,locked,closed
 1f513,unlocked,lock,open,unlock
-1f50f,ink,lock,nib,pen,privacy
-1f510,closed,key,lock,secure
+1f50f,locked with pen,ink,lock,nib,pen,privacy
+1f510,locked with key,closed,key,lock,secure
 1f511,key,lock,password
-1f5dd,clue,key,lock,old
+1f5dd,old key,clue,key,lock,old
 1f528,hammer,tool
 1fa93,axe,chop,hatchet,split,wood
 26cf,pick,mining,tool
-2692,hammer,pick,tool
-1f6e0,hammer,spanner,tool,wrench
+2692,hammer and pick,hammer,pick,tool
+1f6e0,hammer and wrench,hammer,spanner,tool,wrench
 1f5e1,dagger,knife,weapon
-2694,crossed,swords,weapon
-1f52b,gun,handgun,pistol,revolver,tool,water,weapon
+2694,crossed swords,crossed,swords,weapon
+1f52b,water pistol,gun,handgun,pistol,revolver,tool,water,weapon
 1fa83,boomerang,australia,rebound,repercussion
-1f3f9,archer,arrow,bow,sagittarius,zodiac
+1f3f9,bow and arrow,archer,arrow,bow,sagittarius,zodiac
 1f6e1,shield,weapon
-1fa9a,carpenter,lumber,saw,tool
+1fa9a,carpentry saw,carpenter,lumber,saw,tool
 1f527,wrench,spanner,tool
 1fa9b,screwdriver,screw,tool
-1f529,bolt,nut,tool
+1f529,nut and bolt,bolt,nut,tool
 2699,gear,cog,cogwheel,tool
 1f5dc,clamp,compress,tool,vice
-2696,balance,justice,libra,scale,zodiac
-1f9af,accessibility,blind
+2696,balance scale,balance,justice,libra,scale,zodiac
+1f9af,white cane,accessibility,blind
 1f517,link
 26d3,chains,chain
-1fa9d,hook,catch,crook,curve,ensnare
+1fa9d,hook,catch,crook,curve,ensnare,selling point
 1f9f0,toolbox,chest,mechanic,tool
 1f9f2,magnet,attraction,horseshoe,magnetic
 1fa9c,ladder,climb,rung,step
 2697,alembic,chemistry,tool
-1f9ea,chemist,chemistry,experiment,lab,science
-1f9eb,bacteria,biologist,biology,culture,lab
+1f9ea,test tube,chemist,chemistry,experiment,lab,science
+1f9eb,petri dish,bacteria,biologist,biology,culture,lab
 1f9ec,dna,biologist,evolution,gene,genetics,life
 1f52c,microscope,science,tool
 1f52d,telescope,science,tool
-1f4e1,antenna,dish,satellite
+1f4e1,satellite antenna,antenna,dish,satellite
 1f489,syringe,medicine,needle,shot,sick
-1fa78,bleed,injury,medicine,menstruation
+1fa78,drop of blood,bleed,blood donation,injury,medicine,menstruation
 1f48a,pill,doctor,medicine,sick
-1fa79,bandage
+1fa79,adhesive bandage,bandage
 1fa7a,stethoscope,doctor,heart,medicine
 1f6aa,door
 1f6d7,elevator,accessibility,hoist,lift
 1fa9e,mirror,reflection,reflector,speculum
-1fa9f,window,frame,opening,transparent,view
+1fa9f,window,frame,fresh air,opening,transparent,view
 1f6cf,bed,hotel,sleep
-1f6cb,couch,hotel,lamp
+1f6cb,couch and lamp,couch,hotel,lamp
 1fa91,chair,seat,sit
 1f6bd,toilet
-1faa0,plunger,plumber,suction,toilet
+1faa0,plunger,force cup,plumber,suction,toilet
 1f6bf,shower,water
 1f6c1,bathtub,bath
-1faa4,bait,mousetrap,snare,trap
+1faa4,mouse trap,bait,mousetrap,snare,trap
 1fa92,razor,sharp,shave
-1f9f4,lotion,moisturizer,shampoo,sunscreen
-1f9f7,diaper
+1f9f4,lotion bottle,lotion,moisturizer,shampoo,sunscreen
+1f9f7,safety pin,diaper,punk rock
 1f9f9,broom,cleaning,sweeping,witch
 1f9fa,basket,farming,laundry,picnic
+1f9fb,roll of paper,paper towels,toilet paper
 1faa3,bucket,cask,pail,vat
 1f9fc,soap,bar,bathing,cleaning,lather,soapdish
 1faa5,toothbrush,bathroom,brush,clean,dental,hygiene,teeth
 1f9fd,sponge,absorbing,cleaning,porous
-1f9ef,extinguish,fire,quench
-1f6d2,cart,shopping,trolley
+1f9ef,fire extinguisher,extinguish,fire,quench
+1f6d2,shopping cart,cart,shopping,trolley
 1f6ac,cigarette,smoking
 26b0,coffin,death
 1faa6,headstone,cemetery,grave,graveyard,tombstone
-26b1,ashes,death,funeral,urn
+26b1,funeral urn,ashes,death,funeral,urn
 1f5ff,moai,face,moyai,statue
 1faa7,placard,demonstration,picket,protest,sign
-1f3e7,atm,automated,bank,teller
-1f6ae,litter
-1f6b0,drinking,potable,water
-267f,access
+1f3e7,atm sign,atm,automated,bank,teller
+1f6ae,litter in bin sign,litter,litter bin
+1f6b0,potable water,drinking,potable,water
+267f,wheelchair symbol,access
 1f6b9,lavatory,man,restroom
 1f6ba,lavatory,restroom,woman
 1f6bb,restroom,lavatory
-1f6bc,baby,changing
-1f6be,closet,lavatory,restroom,water
-1f6c2,control,passport
+1f6bc,baby symbol,baby,changing
+1f6be,water closet,closet,lavatory,restroom,water
+1f6c2,passport control,control,passport
 1f6c3,customs
-1f6c4,baggage,claim
-1f6c5,baggage,locker,luggage
+1f6c4,baggage claim,baggage,claim
+1f6c5,left luggage,baggage,locker,luggage
 26a0,warning
-1f6b8,child,crossing,pedestrian,traffic
-26d4,entry,forbidden,not,prohibited,traffic
+1f6b8,children crossing,child,crossing,pedestrian,traffic
+26d4,no entry,entry,forbidden,not,prohibited,traffic
 1f6ab,prohibited,entry,forbidden,not
-1f6b3,bicycle,bike,forbidden,prohibited
-1f6ad,forbidden,not,prohibited,smoking
-1f6af,forbidden,litter,not,prohibited
+1f6b3,no bicycles,bicycle,bike,forbidden,prohibited
+1f6ad,no smoking,forbidden,not,prohibited,smoking
+1f6af,no littering,forbidden,litter,not,prohibited
 1f6b1,water
-1f6b7,forbidden,not,pedestrian,prohibited
-1f4f5,cell,forbidden,mobile,phone
-1f51e,eighteen,prohibited,underage
+1f6b7,no pedestrians,forbidden,not,pedestrian,prohibited
+1f4f5,no mobile phones,cell,forbidden,mobile,phone
+1f51e,age restriction,eighteen,prohibited,underage
 2622,radioactive,sign
 2623,biohazard,sign
-2b06,arrow,cardinal,direction,north
+2b06,up arrow,arrow,cardinal,direction,north
 2197,arrow,direction,intercardinal,northeast
-27a1,arrow,cardinal,direction,east
+27a1,right arrow,arrow,cardinal,direction,east
 2198,arrow,direction,intercardinal,southeast
-2b07,arrow,cardinal,direction,down,south
+2b07,down arrow,arrow,cardinal,direction,down,south
 2199,arrow,direction,intercardinal,southwest
-2b05,arrow,cardinal,direction,west
+2b05,left arrow,arrow,cardinal,direction,west
 2196,arrow,direction,intercardinal,northwest
 2195,arrow
 2194,arrow
@@ -1359,21 +1367,21 @@
 2935,arrow,down
 1f503,arrow,clockwise,reload
 1f504,anticlockwise,arrow,counterclockwise,withershins
-1f519,arrow,back
-1f51a,arrow,end
+1f519,back arrow,arrow,back
+1f51a,end arrow,arrow,end
 1f51b,arrow,mark
-1f51c,arrow,soon
-1f51d,arrow,top
-1f6d0,religion,worship
-269b,atheist,atom
+1f51c,soon arrow,arrow,soon
+1f51d,top arrow,arrow,top
+1f6d0,place of worship,religion,worship
+269b,atom symbol,atheist,atom
 1f549,hindu,religion
-2721,david,jew,jewish,religion,star
-2638,buddhist,dharma,religion,wheel
-262f,religion,tao,taoist,yang,yin
-271d,christian,cross,religion
-2626,christian,cross,religion
-262a,islam,muslim,religion
-262e,peace
+2721,star of david,david,jew,jewish,religion,star
+2638,wheel of dharma,buddhist,dharma,religion,wheel
+262f,yin yang,religion,tao,taoist,yang,yin
+271d,latin cross,christian,cross,religion
+2626,orthodox cross,christian,cross,religion
+262a,star and crescent,islam,muslim,religion
+262e,peace symbol,peace
 1f54e,menorah,candelabrum,candlestick,religion
 1f52f,fortune,star
 2648,aries,ram,zodiac
@@ -1390,31 +1398,31 @@
 2653,pisces,fish,zodiac
 26ce,ophiuchus,bearer,serpent,snake,zodiac
 1f500,arrow,crossed
-1f501,arrow,clockwise,repeat
+1f501,repeat button,arrow,clockwise,repeat
 1f502,arrow,clockwise,once
-25b6,arrow,play,right,triangle
+25b6,play button,arrow,play,right,triangle
 23e9,arrow,double,fast,forward
-23ed,arrow,triangle
+23ed,next track button,arrow,next scene,next track,triangle
 23ef,arrow,pause,play,right,triangle
-25c0,arrow,left,reverse,triangle
+25c0,reverse button,arrow,left,reverse,triangle
 23ea,arrow,double,rewind
-23ee,arrow,triangle
-1f53c,arrow,button,red
-23eb,arrow,double
-1f53d,arrow,button,down,red
-23ec,arrow,double,down
-23f8,bar,double,pause,vertical
-23f9,square,stop
-23fa,circle,record
-23cf,eject
+23ee,last track button,arrow,previous scene,previous track,triangle
+1f53c,upwards button,arrow,button,red
+23eb,fast up button,arrow,double
+1f53d,downwards button,arrow,button,down,red
+23ec,fast down button,arrow,double,down
+23f8,pause button,bar,double,pause,vertical
+23f9,stop button,square,stop
+23fa,record button,circle,record
+23cf,eject button,eject
 1f3a6,cinema,camera,film,movie
-1f505,brightness,dim,low
-1f506,bright,brightness
-1f4f6,antenna,bar,cell,mobile,phone
-1f4f3,cell,mobile,mode,phone,telephone,vibration
-1f4f4,cell,mobile,off,phone,telephone
-2640,woman
-2642,man
+1f505,dim button,brightness,dim,low
+1f506,bright button,bright,brightness
+1f4f6,antenna bars,antenna,bar,cell,mobile,phone
+1f4f3,vibration mode,cell,mobile,mode,phone,telephone,vibration
+1f4f4,mobile phone off,cell,mobile,off,phone,telephone
+2640,female sign,woman
+2642,male sign,man
 26a7,transgender
 2716,multiply,cancel,multiplication,sign
 2795,plus,math,sign
@@ -1423,33 +1431,33 @@
 267e,infinity,forever,unbounded,universal
 203c,bangbang,exclamation,mark
 2049,exclamation,interrobang,mark,punctuation,question
-2753,mark,punctuation,question
+2753,red question mark,mark,punctuation,question
 2754,mark,outlined,punctuation,question
 2755,exclamation,mark,outlined,punctuation
 2757,exclamation,mark,punctuation
-3030,dash,punctuation,wavy
-1f4b1,bank,currency,exchange,money
-1f4b2,currency,dollar,money
-2695,aesculapius,medicine,staff
-267b,recycle
-1f531,anchor,emblem,ship,tool,trident
-1f4db,badge,name
+3030,wavy dash,dash,punctuation,wavy
+1f4b1,currency exchange,bank,currency,exchange,money
+1f4b2,heavy dollar sign,currency,dollar,money
+2695,medical symbol,aesculapius,medicine,staff
+267b,recycling symbol,recycle
+1f531,trident emblem,anchor,emblem,ship,tool,trident
+1f4db,name badge,badge,name
 1f530,beginner,chevron,japanese,leaf
-2b55,circle,large,red
-2705,button,check,mark
+2b55,hollow red circle,circle,large,red
+2705,check mark button,button,check,mark
 2611,box,check
-2714,check,mark
-274c,cancel,cross,mark,multiplication,multiply
-274e,mark,square
-27b0,curl,loop
-27bf,curl,double,loop
+2714,check mark,check,mark
+274c,cross mark,cancel,cross,mark,multiplication,multiply
+274e,cross mark button,mark,square
+27b0,curly loop,curl,loop
+27bf,double curly loop,curl,double,loop
 303d,mark,part
 2733,asterisk
 2734,star
 2747,sparkle
 00a9,copyright
 00ae,registered
-2122,mark,trademark
+2122,trade mark,mark,trademark
 0023-fe0f-20e3,keycap
 002a-fe0f-20e3,keycap
 0030-fe0f-20e3,keycap
@@ -1465,19 +1473,26 @@
 1f51f,keycap
 1f520,abcd,input,latin,letters,uppercase
 1f521,abcd,input,latin,letters,lowercase
-1f522,1234,input,numbers
-1f523,input
+1f522,input numbers,1234,input,numbers
+1f523,input symbols,input
 1f524,abc,alphabet,input,latin,letters
-1f192,cool
-1f193,free
+1f170,blood type
+1f18e,blood type
+1f171,blood type
+1f191,cl button
+1f192,cool button,cool
+1f193,free button,free
 2139,information
-1f194,identity
-24c2,circle
-1f195,new
-1f17f,parking
-1f198,help,sos
+1f194,id button,identity
+24c2,circled m,circle
+1f195,new button,new
+1f196,ng button
+1f17e,blood type
+1f197,ok button
+1f17f,p button,parking
+1f198,sos button,help,sos
 1f199,mark
-1f19a,versus
+1f19a,vs button,versus
 1f201,japanese,katakana
 1f202,japanese,katakana
 1f237,ideograph,japanese
@@ -1495,49 +1510,49 @@
 3299,ideograph,japanese
 1f23a,ideograph,japanese
 1f235,ideograph,japanese
-1f534,circle,geometric,red
-1f7e0,circle,orange
-1f7e1,circle,yellow
-1f7e2,circle,green
-1f535,blue,circle,geometric
-1f7e3,circle,purple
-1f7e4,brown,circle
-26ab,circle,geometric
-26aa,circle,geometric
-1f7e5,red,square
-1f7e7,orange,square
-1f7e8,square,yellow
-1f7e9,green,square
-1f7e6,blue,square
-1f7ea,purple,square
-1f7eb,brown,square
-2b1b,geometric,square
-2b1c,geometric,square
+1f534,red circle,circle,geometric,red
+1f7e0,orange circle,circle,orange
+1f7e1,yellow circle,circle,yellow
+1f7e2,green circle,circle,green
+1f535,blue circle,blue,circle,geometric
+1f7e3,purple circle,circle,purple
+1f7e4,brown circle,brown,circle
+26ab,black circle,circle,geometric
+26aa,white circle,circle,geometric
+1f7e5,red square,red,square
+1f7e7,orange square,orange,square
+1f7e8,yellow square,square,yellow
+1f7e9,green square,green,square
+1f7e6,blue square,blue,square
+1f7ea,purple square,purple,square
+1f7eb,brown square,brown,square
+2b1b,black large square,geometric,square
+2b1c,white large square,geometric,square
 25fc,geometric,square
 25fb,geometric,square
 25fe,geometric,square
 25fd,geometric,square
-25aa,geometric,square
-25ab,geometric,square
+25aa,black small square,geometric,square
+25ab,white small square,geometric,square
 1f536,diamond,geometric,orange
-1f537,blue,diamond,geometric
+1f537,large blue diamond,blue,diamond,geometric
 1f538,diamond,geometric,orange
-1f539,blue,diamond,geometric
+1f539,small blue diamond,blue,diamond,geometric
 1f53a,geometric,red
 1f53b,down,geometric,red
-1f4a0,comic,diamond,geometric,inside
-1f518,button,geometric,radio
+1f4a0,diamond with a dot,comic,diamond,geometric,inside
+1f518,radio button,button,geometric,radio
 1f533,button,geometric,outlined,square
 1f532,button,geometric,square
-1f3c1,checkered,chequered,racing
-1f6a9,post
-1f38c,celebration,cross,crossed,japanese
-1f3f4,waving
-1f3f3,waving
-1f3f3-fe0f-200d-1f308,pride,rainbow
-1f3f3-fe0f-200d-26a7-fe0f,flag,pink,transgender,white
-1f3f4-200d-2620-fe0f,pirate,plunder,treasure
-1f1e6-1f1e8,flag
+1f3c1,chequered flag,checkered,chequered,racing
+1f6a9,triangular flag,post
+1f38c,crossed flags,celebration,cross,crossed,japanese
+1f3f4,black flag,waving
+1f3f3,white flag,waving
+1f3f3-fe0f-200d-1f308,rainbow flag,pride,rainbow
+1f3f3-fe0f-200d-26a7-fe0f,transgender flag,flag,light blue,pink,transgender,white
+1f3f4-200d-2620-fe0f,pirate flag,jolly roger,pirate,plunder,treasure
+1f1e6-1f1e8,ascension island,flag
 1f1e6-1f1e9,andorra,flag
 1f1e6-1f1ea,flag
 1f1e6-1f1eb,afghanistan,flag
@@ -1548,7 +1563,7 @@
 1f1e6-1f1f4,angola,flag
 1f1e6-1f1f6,antarctica,flag
 1f1e6-1f1f7,argentina,flag
-1f1e6-1f1f8,flag
+1f1e6-1f1f8,american samoa,flag
 1f1e6-1f1f9,austria,flag
 1f1e6-1f1fa,australia,flag
 1f1e6-1f1fc,aruba,flag
@@ -1558,7 +1573,7 @@
 1f1e7-1f1e7,barbados,flag
 1f1e7-1f1e9,bangladesh,flag
 1f1e7-1f1ea,belgium,flag
-1f1e7-1f1eb,flag
+1f1e7-1f1eb,burkina faso,flag
 1f1e7-1f1ec,bulgaria,flag
 1f1e7-1f1ed,bahrain,flag
 1f1e7-1f1ee,burundi,flag
@@ -1571,7 +1586,7 @@
 1f1e7-1f1f7,brazil,flag
 1f1e7-1f1f8,bahamas,flag
 1f1e7-1f1f9,bhutan,flag
-1f1e7-1f1fb,flag
+1f1e7-1f1fb,bouvet island,flag
 1f1e7-1f1fc,botswana,flag
 1f1e7-1f1fe,belarus,flag
 1f1e7-1f1ff,belize,flag
@@ -1582,21 +1597,21 @@
 1f1e8-1f1ec,flag
 1f1e8-1f1ed,switzerland,flag
 1f1e8-1f1ee,flag
-1f1e8-1f1f0,flag
+1f1e8-1f1f0,cook islands,flag
 1f1e8-1f1f1,chile,flag
 1f1e8-1f1f2,cameroon,flag
 1f1e8-1f1f3,china,flag
 1f1e8-1f1f4,colombia,flag
-1f1e8-1f1f5,flag
-1f1e8-1f1f7,flag
+1f1e8-1f1f5,clipperton island,flag
+1f1e8-1f1f7,costa rica,flag
 1f1e8-1f1fa,cuba,flag
-1f1e8-1f1fb,flag
+1f1e8-1f1fb,cape verde,flag
 1f1e8-1f1fc,flag
-1f1e8-1f1fd,flag
+1f1e8-1f1fd,christmas island,flag
 1f1e8-1f1fe,cyprus,flag
 1f1e8-1f1ff,czechia,flag
 1f1e9-1f1ea,germany,flag
-1f1e9-1f1ec,flag
+1f1e9-1f1ec,diego garcia,flag
 1f1e9-1f1ef,djibouti,flag
 1f1e9-1f1f0,denmark,flag
 1f1e9-1f1f2,dominica,flag
@@ -1606,22 +1621,22 @@
 1f1ea-1f1e8,ecuador,flag
 1f1ea-1f1ea,estonia,flag
 1f1ea-1f1ec,egypt,flag
-1f1ea-1f1ed,flag
+1f1ea-1f1ed,western sahara,flag
 1f1ea-1f1f7,eritrea,flag
 1f1ea-1f1f8,spain,flag
 1f1ea-1f1f9,ethiopia,flag
-1f1ea-1f1fa,flag
+1f1ea-1f1fa,european union,flag
 1f1eb-1f1ee,finland,flag
 1f1eb-1f1ef,fiji,flag
-1f1eb-1f1f0,flag
+1f1eb-1f1f0,falkland islands,flag
 1f1eb-1f1f2,micronesia,flag
-1f1eb-1f1f4,flag
+1f1eb-1f1f4,faroe islands,flag
 1f1eb-1f1f7,france,flag
 1f1ec-1f1e6,gabon,flag
-1f1ec-1f1e7,flag
+1f1ec-1f1e7,united kingdom,flag
 1f1ec-1f1e9,grenada,flag
 1f1ec-1f1ea,georgia,flag
-1f1ec-1f1eb,flag
+1f1ec-1f1eb,french guiana,flag
 1f1ec-1f1ec,guernsey,flag
 1f1ec-1f1ed,ghana,flag
 1f1ec-1f1ee,gibraltar,flag
@@ -1629,24 +1644,24 @@
 1f1ec-1f1f2,gambia,flag
 1f1ec-1f1f3,guinea,flag
 1f1ec-1f1f5,guadeloupe,flag
-1f1ec-1f1f6,flag
+1f1ec-1f1f6,equatorial guinea,flag
 1f1ec-1f1f7,greece,flag
 1f1ec-1f1f8,flag
 1f1ec-1f1f9,guatemala,flag
 1f1ec-1f1fa,guam,flag
 1f1ec-1f1fc,flag
 1f1ec-1f1fe,guyana,flag
-1f1ed-1f1f0,flag
+1f1ed-1f1f0,hong kong sar china,flag
 1f1ed-1f1f2,flag
 1f1ed-1f1f3,honduras,flag
 1f1ed-1f1f7,croatia,flag
 1f1ed-1f1f9,haiti,flag
 1f1ed-1f1fa,hungary,flag
-1f1ee-1f1e8,flag
+1f1ee-1f1e8,canary islands,flag
 1f1ee-1f1e9,indonesia,flag
 1f1ee-1f1ea,ireland,flag
 1f1ee-1f1f1,israel,flag
-1f1ee-1f1f2,flag
+1f1ee-1f1f2,isle of man,flag
 1f1ee-1f1f3,india,flag
 1f1ee-1f1f4,flag
 1f1ee-1f1f6,iraq,flag
@@ -1663,16 +1678,16 @@
 1f1f0-1f1ee,kiribati,flag
 1f1f0-1f1f2,comoros,flag
 1f1f0-1f1f3,flag
-1f1f0-1f1f5,flag
-1f1f0-1f1f7,flag
+1f1f0-1f1f5,north korea,flag
+1f1f0-1f1f7,south korea,flag
 1f1f0-1f1fc,kuwait,flag
-1f1f0-1f1fe,flag
+1f1f0-1f1fe,cayman islands,flag
 1f1f0-1f1ff,kazakhstan,flag
 1f1f1-1f1e6,laos,flag
 1f1f1-1f1e7,lebanon,flag
 1f1f1-1f1e8,flag
 1f1f1-1f1ee,liechtenstein,flag
-1f1f1-1f1f0,flag
+1f1f1-1f1f0,sri lanka,flag
 1f1f1-1f1f7,liberia,flag
 1f1f1-1f1f8,lesotho,flag
 1f1f1-1f1f9,lithuania,flag
@@ -1685,12 +1700,12 @@
 1f1f2-1f1ea,montenegro,flag
 1f1f2-1f1eb,flag
 1f1f2-1f1ec,madagascar,flag
-1f1f2-1f1ed,flag
-1f1f2-1f1f0,flag
+1f1f2-1f1ed,marshall islands,flag
+1f1f2-1f1f0,north macedonia,flag
 1f1f2-1f1f1,mali,flag
 1f1f2-1f1f2,flag
 1f1f2-1f1f3,mongolia,flag
-1f1f2-1f1f4,flag
+1f1f2-1f1f4,macao sar china,flag
 1f1f2-1f1f5,flag
 1f1f2-1f1f6,martinique,flag
 1f1f2-1f1f7,mauritania,flag
@@ -1703,9 +1718,9 @@
 1f1f2-1f1fe,malaysia,flag
 1f1f2-1f1ff,mozambique,flag
 1f1f3-1f1e6,namibia,flag
-1f1f3-1f1e8,flag
+1f1f3-1f1e8,new caledonia,flag
 1f1f3-1f1ea,niger,flag
-1f1f3-1f1eb,flag
+1f1f3-1f1eb,norfolk island,flag
 1f1f3-1f1ec,nigeria,flag
 1f1f3-1f1ee,nicaragua,flag
 1f1f3-1f1f1,netherlands,flag
@@ -1713,18 +1728,18 @@
 1f1f3-1f1f5,nepal,flag
 1f1f3-1f1f7,nauru,flag
 1f1f3-1f1fa,niue,flag
-1f1f3-1f1ff,flag
+1f1f3-1f1ff,new zealand,flag
 1f1f4-1f1f2,oman,flag
 1f1f5-1f1e6,panama,flag
 1f1f5-1f1ea,peru,flag
-1f1f5-1f1eb,flag
-1f1f5-1f1ec,flag
+1f1f5-1f1eb,french polynesia,flag
+1f1f5-1f1ec,papua new guinea,flag
 1f1f5-1f1ed,philippines,flag
 1f1f5-1f1f0,pakistan,flag
 1f1f5-1f1f1,poland,flag
 1f1f5-1f1f2,flag
-1f1f5-1f1f3,flag
-1f1f5-1f1f7,flag
+1f1f5-1f1f3,pitcairn islands,flag
+1f1f5-1f1f7,puerto rico,flag
 1f1f5-1f1f8,flag
 1f1f5-1f1f9,portugal,flag
 1f1f5-1f1fc,palau,flag
@@ -1735,8 +1750,8 @@
 1f1f7-1f1f8,serbia,flag
 1f1f7-1f1fa,russia,flag
 1f1f7-1f1fc,rwanda,flag
-1f1f8-1f1e6,flag
-1f1f8-1f1e7,flag
+1f1f8-1f1e6,saudi arabia,flag
+1f1f8-1f1e7,solomon islands,flag
 1f1f8-1f1e8,seychelles,flag
 1f1f8-1f1e9,sudan,flag
 1f1f8-1f1ea,sweden,flag
@@ -1745,18 +1760,18 @@
 1f1f8-1f1ee,slovenia,flag
 1f1f8-1f1ef,flag
 1f1f8-1f1f0,slovakia,flag
-1f1f8-1f1f1,flag
-1f1f8-1f1f2,flag
+1f1f8-1f1f1,sierra leone,flag
+1f1f8-1f1f2,san marino,flag
 1f1f8-1f1f3,senegal,flag
 1f1f8-1f1f4,somalia,flag
 1f1f8-1f1f7,suriname,flag
-1f1f8-1f1f8,flag
+1f1f8-1f1f8,south sudan,flag
 1f1f8-1f1f9,flag
-1f1f8-1f1fb,flag
-1f1f8-1f1fd,flag
+1f1f8-1f1fb,el salvador,flag
+1f1f8-1f1fd,sint maarten,flag
 1f1f8-1f1fe,syria,flag
 1f1f8-1f1ff,eswatini,flag
-1f1f9-1f1e6,flag
+1f1f9-1f1e6,tristan da cunha,flag
 1f1f9-1f1e8,flag
 1f1f9-1f1e9,chad,flag
 1f1f9-1f1eb,flag
@@ -1776,11 +1791,11 @@
 1f1fa-1f1e6,ukraine,flag
 1f1fa-1f1ec,uganda,flag
 1f1fa-1f1f2,flag
-1f1fa-1f1f3,flag
-1f1fa-1f1f8,flag
+1f1fa-1f1f3,united nations,flag
+1f1fa-1f1f8,united states,flag
 1f1fa-1f1fe,uruguay,flag
 1f1fa-1f1ff,uzbekistan,flag
-1f1fb-1f1e6,flag
+1f1fb-1f1e6,vatican city,flag
 1f1fb-1f1e8,flag
 1f1fb-1f1ea,venezuela,flag
 1f1fb-1f1ec,flag
@@ -1792,7 +1807,7 @@
 1f1fd-1f1f0,kosovo,flag
 1f1fe-1f1ea,yemen,flag
 1f1fe-1f1f9,mayotte,flag
-1f1ff-1f1e6,flag
+1f1ff-1f1e6,south africa,flag
 1f1ff-1f1f2,zambia,flag
 1f1ff-1f1fc,zimbabwe,flag
 1f3f4-e0067-e0062-e0065-e006e-e0067-e007f,england,flag
