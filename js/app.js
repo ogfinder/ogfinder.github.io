@@ -404,7 +404,7 @@ function loadEmojis(data) {
 }
 
 function addEmoji(card, e) {
-  if(e.popularity < 3.75 / 10000000) return;
+  if(e.popularity < 1 / 1000000) return;
   
   var url = null;
   
@@ -420,7 +420,7 @@ function addEmoji(card, e) {
 	  
       var score = k + i * 3;
 	  
-	  if(i > 2 || score > m) break;
+	  if(i > 2 || score > 5 || score >= m) break;
 	  
 	  if(keyword == e.name) {
 		url = emoji.code;
