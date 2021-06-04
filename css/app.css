@@ -190,7 +190,13 @@ body {
 	line-height: 42px;
 }
 
-.header_sortselect_options span:hover {
+.header_sortselect_options span.selected {
+	background-color: #0F1419;
+	
+	cursor: auto;
+}
+
+.header_sortselect_options span:not(.selected):hover {
 	color: #fff;
 	background-color: #222A33;
 }
