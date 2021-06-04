@@ -258,6 +258,8 @@ function addEntry(e, template) {
 	showCopiedSign(card);
   });
   
+  addEmoji(card);
+  
   container.appendChild(card);
   
   showTitle(index, container);
@@ -380,6 +382,16 @@ function selectSortElement(e, type, update) {
   
   if(update) sort(type);
   else sortType = type;
+}
+
+function addEmoji(card) {
+  setEmoji(card, "test");
+}
+
+function setEmoji(card, emoji) {
+  var tags = card.querySelectorAll('div[class="entry_card_tag"]');
+  
+  card.insertBefore();
 }
 
 function loadText(url) {
