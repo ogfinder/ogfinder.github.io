@@ -43,30 +43,34 @@ loadList();
 function loadList() {
   loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data){
     loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/blocked_names.txt").then(function(data2){
-	  
-      var blockedNames = data2.split('\n');
-	  
-      var lines = data.split('\n');
-	  
-	  list = [];
-	  
-	  for(var line of lines) {
-	    var split = line.split(" ");
+	  loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/emojis.txt").then(function(data3){
+		
+		loadEmojis(data3);
+		
+	    var blockedNames = data2.split('\n');
 	    
-	    list.push({
-		  name: split[0],
-		  popularity: parseFloat(split[1]),
-		  og: false,
-		  status: blockedNames.includes(split[0]) ? 3 : split[2] === "null" ? (isAvailableNow(parseInt(split[3])) ? 0 : 1) : 2
-        });
-	  }
-	  
-	  updateStats();
-	  
-	  var searchInput = document.getElementsByClassName("header_searchbox")[0];
-	  search(searchInput);
-	  
-	  removePreloading();
+        var lines = data.split('\n');
+	    
+	    list = [];
+	    
+	    for(var line of lines) {
+	      var split = line.split(" ");
+	      
+	      list.push({
+		    name: split[0],
+		    popularity: parseFloat(split[1]),
+		    og: false,
+		    status: blockedNames.includes(split[0]) ? 3 : split[2] === "null" ? (isAvailableNow(parseInt(split[3])) ? 0 : 1) : 2
+          });
+	    }
+	    
+	    updateStats();
+	    
+	    var searchInput = document.getElementsByClassName("header_searchbox")[0];
+	    search(searchInput);
+	    
+	    removePreloading();
+	  });
     });
   });
 }
@@ -258,7 +262,7 @@ function addEntry(e, template) {
 	showCopiedSign(card);
   });
   
-  addEmoji(card);
+  addEmoji(card, e);
   
   container.appendChild(card);
   
@@ -384,14 +388,58 @@ function selectSortElement(e, type, update) {
   else sortType = type;
 }
 
-function addEmoji(card) {
-  setEmoji(card, "test");
+const emojis = [];
+
+function loadEmojis(data) {
+  //console.log(data);
 }
 
-function setEmoji(card, emoji) {
-  var tags = card.querySelectorAll('div[class="entry_card_tag"]');
+function addEmoji(card, e) {
+  var url = emojis[e.name];
   
-  card.insertBefore();
+  if(url != null) setEmoji(card, url);
+}
+
+function setEmoji(card, url) {
+  var image = document.createElement("img");
+  
+  var emoji = "";
+  
+  var split = url.split("-");
+  
+  for(var s of split) {
+	var utf16 = toUTF16Pair("0x" + s).split(" ");
+	
+    emoji += String.fromCharCode(parseInt("0x" + utf16[0]), parseInt("0x" + utf16[1]));
+  }
+  
+  image.src = "https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/emojis/" + url + ".svg";
+  image.alt = emoji;
+  
+  image.style.maxWidth = "19px";
+  image.style.maxHeight = "19px";
+  
+  image.style.display = "flex";
+  image.style.alignItems = "center";
+  
+  image.style.marginRight = "9px";
+  card.children[0].style.marginRight = "6px";
+  
+  image.style.pointerEvents = "none";
+  
+  card.insertBefore(image, card.children[1]);
+}
+
+function autoCropSVG(svg) {
+  var bbox = svg.getBBox();
+  
+  var viewBox = [bbox.x, bbox.y, bbox.width, bbox.height].join(" ");
+  
+  svg.setAttribute("viewBox", viewBox);
+}
+
+function toUTF16Pair(x) {
+  return ((((x - 0x10000) >> 0x0a) | 0x0) + 0xD800).toString(16) + ' ' + (((x - 0x10000) & 0x3FF) + 0xDC00).toString(16);
 }
 
 function loadText(url) {
