@@ -205,9 +205,7 @@ function compare(e1, e2) {
 	if(sortType == 1) {
 		return e2.popularity - e1.popularity;
 	} else {
-		if(e1.name < e2.name) return -1;
-		if(e1.name > e2.name) return 1;
-		return 0;
+		return e1.name.localeCompare(e2.name);
 	}
 }
 
