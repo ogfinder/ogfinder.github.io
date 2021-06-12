@@ -207,9 +207,17 @@ function matches(e) {
 
 function compare(e1, e2) {
 	var i = e1.status - e2.status;
-
+	
 	if(i != 0) return i;
-
+	
+	if(sortType == 1) {
+		i = e2.popularity - e1.popularity;
+		if(i != 0) return i;
+	} else if(sortType == 2) {
+		i = e1.name.length - e2.name.length;
+		if(i != 0) return i;
+	}
+	
 	if(query != null && query.length != 0) {
 		i = e1.name.indexOf(query) - e2.name.indexOf(query);
 
@@ -222,12 +230,8 @@ function compare(e1, e2) {
 
 		if(i != 0) return i;
 	}
-
-	if(sortType == 1) {
-		return e2.popularity - e1.popularity;
-	} else {
-		return e1.name.localeCompare(e2.name);
-	}
+	
+	return e1.name.localeCompare(e2.name);
 }
 
 function loadEntries(amount) {
