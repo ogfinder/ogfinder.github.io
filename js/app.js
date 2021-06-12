@@ -427,10 +427,12 @@ function selectSortElement(e, type, update) {
 }
 
 function addEmoji(card, e) {
-	var emoji = e.emoji;
+	var p = e.popularity;
 	
-	if(e.popularity > 3.75 / 10000000) {
+	if(p > 2 / 1000000) {
 		setEmoji(card, '💎');
+	} else if(p > 3.75 / 10000000) {
+		setEmoji(card, '🔥');
 	}
 }
 
