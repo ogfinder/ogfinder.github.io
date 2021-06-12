@@ -431,7 +431,7 @@ function addEmoji(card, e) {
 	
 	if(p > 2 / 1000000) {
 		setEmoji(card, '💎');
-	} else if(p > 3.75 / 10000000) {
+	} else if(p > 3.5 / 10000000) {
 		setEmoji(card, '🔥');
 	}
 }
