@@ -76,10 +76,9 @@ function loadList() {
 
 				list.push({
 					name: split[0],
-					emoji: split[1],
-					popularity: parseFloat(split[2]),
+					popularity: parseFloat(split[1]),
 					og: false,
-					status: blockedNames.includes(split[0]) ? 3 : split[3] === "null" ? (isAvailableNow(parseInt(split[4])) ? 0 : 1) : 2
+					status: blockedNames.includes(split[0]) ? 3 : split[2] === "null" ? (isAvailableNow(parseInt(split[3])) ? 0 : 1) : 2
 				});
 			}
 
@@ -429,9 +428,9 @@ function selectSortElement(e, type, update) {
 
 function addEmoji(card, e) {
 	var emoji = e.emoji;
-
-	if(emoji != null && emoji !== "undefined") {
-		setEmoji(card, e.emoji);
+	
+	if(e.popularity > 3.75 / 10000000) {
+		setEmoji(card, '💎');
 	}
 }
 
