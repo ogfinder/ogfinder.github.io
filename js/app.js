@@ -107,9 +107,31 @@ function updateStats() {
 }
 
 function formatNumber(x) {
+	if(x >= 1000) return compactNumber(x);
+	
 	x = roundifyNumber(x);
-
+	
 	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function compactNumber(x) {
+	var suffixes = ["K", "M", "B", "T"];
+	
+	var n = Math.ceil(Math.log10(x + 1));
+	
+	var i = Math.floor((n - 3) / 3);
+	
+	var d = Math.pow(10, i * 3 + 3);
+	
+	var result = x / d;
+	
+	var rounded = Math.round(result);
+	
+	var s = rounded + suffixes[i];
+	
+	if(result - rounded >= 0.05) s += "+";
+	
+	return s;
 }
 
 function roundifyNumber(x) {
