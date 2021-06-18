@@ -64,7 +64,6 @@ loadList();
 function loadList() {
 	loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/names.txt").then(function(data) {
 		loadText("https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/blocked_names.txt").then(function(data2) {
-
 			var blockedNames = data2.split('\n');
 
 			var lines = data.split('\n');
@@ -462,9 +461,7 @@ function setEmoji(card, emoji) {
 	var unicode = emojiUnicode(emoji);
 
 	var url = "https://raw.githubusercontent.com/ogfinder/ogfinder.github.io/main/imgs/emojis/" + unicode + ".svg";
-
-	if(!urlExists(url)) return;
-
+	
 	var image = document.createElement("img");
 
 	image.src = url;
@@ -494,15 +491,6 @@ function emojiUnicode(emoji) {
 	}
 
 	return s;
-}
-
-function urlExists(url) {
-	var http = new XMLHttpRequest();
-
-	http.open('HEAD', url, false);
-	http.send();
-
-	return http.status != 404;
 }
 
 function loadText(url) {
