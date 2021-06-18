@@ -98,6 +98,18 @@ body {
 	font-size: 18px;
 }
 
+.header_game {
+	padding-top: 5px;
+	padding-left: 8px;
+	max-width: 320px;
+	
+	color: rgba(255, 255, 255, 0.5);
+	
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Catamaran', sans-serif;
+}
+
 .header_searchbox {
 	margin-left: 80px;
 	width: 223px;
